@@ -1133,3 +1133,12 @@ and the lineup-aware shadow prefers Cherki (+0.16). SFT H5 sheet identical XI (6
 (+11.9); recommendation no chip (projected-gain trigger loses; WC at the GW11 break, BB on the rebuilt bench). Donnarumma → Raya
 is GW11's free move (+6.0 rolled). File: reports/gw10_packet_2026_11/RECOMMENDATION_2026_11_06_final.md. Runbook note: wake the
 final refresh ~17:00Z (GW8 lineups 15:42Z, GW9 16:19Z, GW10 16:43Z).
+
+### 2026-11-08 Sun: the project goes on GitHub
+
+Wes asked for the work to be checked in so he can show it in interviews. Created the private repo
+https://github.com/dreamland701/fpl-ai-recommender from this directory (first commit 2,845 files, 27.5 MB): code, tests,
+docs, markdown write-ups, the Codex review and the ridge coefficients. Excluded by `.gitignore`: weights (87 GB), data tables
+(4.8 GB), evidence stores (Guardian/Scout article text), logs, forecast/snapshot payloads. Scans before the push: Guardian key
+value, email address and raw article dumps all absent from the staged tree. Root README rewritten for an outside reader; the
+July CLI quickstart moved to docs/cli_quickstart_2026_07.md. Commits are identified by the GitHub noreply address.
