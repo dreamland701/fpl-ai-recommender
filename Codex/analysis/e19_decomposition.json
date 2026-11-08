@@ -1,0 +1,35 @@
+{
+  "warning": "Per-week regression uses the saved adapter deltas, not outcomes. Descriptive post-hoc mechanism analysis, not a fitted deployable challenger.",
+  "classic": {
+    "n": 3072,
+    "mae": 2.2715697265625,
+    "rmse": 3.042257918282762,
+    "mean_prediction": 2.9118912760416666,
+    "mean_actual": 2.873046875,
+    "bias_pred_minus_actual": 0.03884440104166669
+  },
+  "sft": {
+    "n": 3072,
+    "mae": 2.1357850911458334,
+    "rmse": 3.0592661432284975,
+    "mean_prediction": 2.422275390625,
+    "mean_actual": 2.873046875,
+    "bias_pred_minus_actual": -0.450771484375
+  },
+  "shrink_only": {
+    "n": 3072,
+    "mae": 2.1477895493522836,
+    "rmse": 3.075312585689944,
+    "mean_prediction": 2.422275390625001,
+    "mean_actual": 2.873046875,
+    "bias_pred_minus_actual": -0.45077148437499903
+  },
+  "remainder_only": {
+    "n": 3072,
+    "mae": 2.259014379417722,
+    "rmse": 3.026036198850794,
+    "mean_prediction": 2.9118912760416653,
+    "mean_actual": 2.873046875,
+    "bias_pred_minus_actual": 0.03884440104166578
+  }
+}

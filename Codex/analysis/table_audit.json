@@ -1,0 +1,231 @@
+{
+  "rows": 194240,
+  "seasons": [
+    {
+      "season": "2019-20",
+      "rows": 28145,
+      "week_min": 1,
+      "week_max": 47
+    },
+    {
+      "season": "2020-21",
+      "rows": 24198,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2021-22",
+      "rows": 25321,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2022-23",
+      "rows": 26337,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2023-24",
+      "rows": 29677,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2024-25",
+      "rows": 27599,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2025-26",
+      "rows": 29747,
+      "week_min": 1,
+      "week_max": 38
+    },
+    {
+      "season": "2026-27",
+      "rows": 3216,
+      "week_min": 1,
+      "week_max": 5
+    }
+  ],
+  "features": [
+    "price_pre_deadline",
+    "selected_by_percent_pre_deadline",
+    "transfers_in_prev_event",
+    "transfers_out_prev_event",
+    "transfer_balance_prev_event",
+    "primary_opponent_team_id",
+    "home_fixture_count",
+    "away_fixture_count",
+    "fixture_count",
+    "fixture_difficulty_mean",
+    "fixture_difficulty_min",
+    "team_goals_for_avg_3",
+    "team_goals_against_avg_3",
+    "team_goals_for_avg_5",
+    "team_goals_against_avg_5",
+    "opponent_goals_for_avg_3",
+    "opponent_goals_against_avg_3",
+    "opponent_goals_for_avg_5",
+    "opponent_goals_against_avg_5",
+    "opp_def_weakness_3",
+    "form_x_opp_weakness_3",
+    "xgi_x_opp_weakness_3",
+    "opp_def_weakness_5",
+    "form_x_opp_weakness_5",
+    "xgi_x_opp_weakness_5",
+    "points_avg_1",
+    "minutes_avg_1",
+    "appearance_rate_1",
+    "played_60_rate_1",
+    "points_avg_3",
+    "minutes_avg_3",
+    "appearance_rate_3",
+    "played_60_rate_3",
+    "points_avg_5",
+    "minutes_avg_5",
+    "appearance_rate_5",
+    "played_60_rate_5",
+    "points_avg_8",
+    "minutes_avg_8",
+    "appearance_rate_8",
+    "played_60_rate_8",
+    "price_change_1",
+    "selected_change_1",
+    "home_fixture_ratio",
+    "blank_gw",
+    "double_gw",
+    "bonus_avg_3",
+    "bonus_avg_5",
+    "bps_avg_3",
+    "bps_avg_5",
+    "influence_avg_3",
+    "influence_avg_5",
+    "creativity_avg_3",
+    "creativity_avg_5",
+    "threat_avg_3",
+    "threat_avg_5",
+    "ict_index_avg_3",
+    "ict_index_avg_5",
+    "starts_avg_3",
+    "starts_avg_5",
+    "expected_goals_avg_3",
+    "expected_goals_avg_5",
+    "expected_assists_avg_3",
+    "expected_assists_avg_5",
+    "expected_goal_involvements_avg_3",
+    "expected_goal_involvements_avg_5",
+    "expected_goals_conceded_avg_3",
+    "expected_goals_conceded_avg_5",
+    "defensive_contribution_avg_3",
+    "defensive_contribution_avg_5",
+    "defcon_hit_rate_3",
+    "defcon_hit_rate_5",
+    "expected_data_source_available",
+    "defensive_data_source_available",
+    "status_flag_pre_deadline",
+    "news_flag_pre_deadline"
+  ],
+  "position_in_features": false,
+  "duplicate_player_week_keys": 0,
+  "train_rows_before_2526_gw27": 181084,
+  "label_overlap_at_2526_gw27": {
+    "1": {
+      "rows": 0,
+      "origin_weeks": []
+    },
+    "3": {
+      "rows": 1634,
+      "origin_weeks": [
+        25,
+        26
+      ]
+    },
+    "5": {
+      "rows": 3248,
+      "origin_weeks": [
+        23,
+        24,
+        25,
+        26
+      ]
+    }
+  },
+  "example_player": [
+    {
+      "season": "2025-26",
+      "week": 23,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 1.0,
+      "label_points_3gw": 17.0,
+      "label_points_5gw": 28.0
+    },
+    {
+      "season": "2025-26",
+      "week": 24,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 5.0,
+      "label_points_3gw": 21.0,
+      "label_points_5gw": 27.0
+    },
+    {
+      "season": "2025-26",
+      "week": 25,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 11.0,
+      "label_points_3gw": 22.0,
+      "label_points_5gw": 24.0
+    },
+    {
+      "season": "2025-26",
+      "week": 26,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 5.0,
+      "label_points_3gw": 11.0,
+      "label_points_5gw": 15.0
+    },
+    {
+      "season": "2025-26",
+      "week": 27,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 6.0,
+      "label_points_3gw": 8.0,
+      "label_points_5gw": 10.0
+    },
+    {
+      "season": "2025-26",
+      "week": 28,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 0.0,
+      "label_points_3gw": 4.0,
+      "label_points_5gw": 6.0
+    },
+    {
+      "season": "2025-26",
+      "week": 29,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 2.0,
+      "label_points_3gw": 4.0,
+      "label_points_5gw": 19.0
+    },
+    {
+      "season": "2025-26",
+      "week": 30,
+      "player_id": 430,
+      "player_name": "Erling Haaland",
+      "label_points_1gw": 2.0,
+      "label_points_3gw": 4.0,
+      "label_points_5gw": 17.0
+    }
+  ],
+  "minutes_above_90_single_fixture_rows": 0
+}

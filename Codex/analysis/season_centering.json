@@ -1,0 +1,7 @@
+{
+  "season": "2025-26",
+  "cutoff_week": 27,
+  "full_season_opponent_conceded_mean": 1.9430642865947265,
+  "prefix_opponent_conceded_mean": 2.2356069403072985,
+  "note": "F6 builds league_mean using all rows of a season before the training split. Changing future rows therefore changes earlier feature values. This diagnostic establishes dependence, not performance impact."
+}

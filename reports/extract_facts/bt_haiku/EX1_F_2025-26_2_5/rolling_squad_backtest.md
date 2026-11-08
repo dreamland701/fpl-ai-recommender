@@ -1,0 +1,149 @@
+# Rolling Squad Backtest Report
+
+- Train seasons in scope: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26, 2026-27
+- In-season warm start: 2025-26 GW1-GW1
+- Simulated weeks: GW2-GW5
+- Total predicted points: 263.09
+- Total actual points: 227.00
+- Average predicted points: 65.77
+- Average actual points: 56.75
+- Total transfer hits: 0
+
+## Notes
+
+- The feature set includes lagged bonus/BPS/ICT features plus newer xG/xA/xGI/xGC/starts/defensive-contribution features when available.
+- Later-era-only features are zero-filled outside their source era and paired with expected_data_source_available / defensive_data_source_available flags so the model can distinguish missing-era zeros from real observations.
+- This squad backtest uses a synthetic starting squad at the beginning of the simulated window, approximate price carry-forward, and simple auto-sub handling.
+- Bench Boost and Triple Captain are scheduled by an explicit remaining-season optimizer that uses current squad strength plus future schedule opportunity estimates.
+- Weekly training expands through the prior deadline, so GW1-GW1 are included before the first simulated week.
+- League-average scores were not available for this run.
+
+## GW2
+
+- Train rows: 161967
+- Bank: 100.00 -> 0.00
+- Free transfers: 1 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Daniel Ballard
+- Effective captain: Mohamed Salah
+- Chip used: none
+- Predicted score: 71.42
+- Actual score: 44.00
+- Transfer: none
+- Initial squad was constructed synthetically at the start of the backtest from week-level forecasts under a 100.0 budget.
+- Autosub: Junior Kroupi replaced Cole Palmer.
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Robin Roefs | GK | 17 | 4.5 | 4.21 | 10.70 | 17.38 | 1.00 | 88.3 | 90.0 |
+| Bench 1 | Bench | Daniel Bentley | GK | 20 | 4.0 | 0.17 | 0.69 | 1.25 | 0.00 | 13.7 | 0.0 |
+| Vice Captain | XI | Daniel Ballard | DEF | 17 | 4.6 | 7.26 | 17.28 | 27.40 | 1.00 | 90.0 | 8.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.0 | 4.38 | 12.01 | 19.19 | 6.00 | 90.0 | 90.0 |
+| Bench 3 | Bench | Pedro Porro Sauceda | DEF | 18 | 5.5 | 3.48 | 10.92 | 18.18 | 5.00 | 89.2 | 90.0 |
+| XI | XI | Reinildo Mandava | DEF | 17 | 4.0 | 4.12 | 10.50 | 16.71 | 3.00 | 87.9 | 90.0 |
+| Bench 4 | Bench | Gabriel Gudmundsson | DEF | 11 | 4.0 | 2.66 | 9.22 | 15.88 | -1.00 | 82.0 | 90.0 |
+| XI | XI | Hugo Ekitiké | FWD | 12 | 8.6 | 5.50 | 18.01 | 29.77 | 9.00 | 90.0 | 79.0 |
+| XI | XI | Chris Wood | FWD | 16 | 7.6 | 4.43 | 14.04 | 22.87 | 2.00 | 88.5 | 87.0 |
+| Bench 2 | Autosub In | Junior Kroupi | FWD | 4 | 4.5 | 4.09 | 6.25 | 9.42 | 2.00 | 28.3 | 4.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 14.5 | 7.63 | 22.77 | 38.20 | 5.00 | 90.0 | 90.0 |
+| XI | XI | Tijjani Reijnders | MID | 13 | 5.6 | 6.67 | 19.58 | 30.70 | 2.00 | 90.0 | 90.0 |
+| XI | Bench | Cole Palmer | MID | 7 | 10.5 | 6.71 | 17.61 | 29.07 | 0.00 | 90.0 | 0.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 9.0 | 6.00 | 16.90 | 28.11 | 2.00 | 90.0 | 90.0 |
+| XI | XI | Antoine Semenyo | MID | 4 | 7.1 | 6.88 | 16.08 | 24.98 | 6.00 | 90.0 | 90.0 |
+
+## GW3
+
+- Train rows: 162672
+- Bank: 0.00 -> 3.80
+- Free transfers: 2 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Bruno Borges Fernandes
+- Effective captain: Mohamed Salah
+- Chip used: none
+- Predicted score: 59.65
+- Actual score: 41.00
+- Transfer: Cole Palmer -> Mohammed Kudus (projected gain 10.77, hit 0)
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Robin Roefs | GK | 17 | 4.5 | 2.78 | 8.10 | 13.28 | 8.00 | 78.3 | 90.0 |
+| Bench 1 | Bench | Daniel Bentley | GK | 20 | 4.0 | 0.48 | 1.09 | 1.74 | 0.00 | 10.5 | 0.0 |
+| XI | XI | Pedro Porro Sauceda | DEF | 18 | 5.5 | 5.16 | 14.73 | 23.31 | 4.00 | 90.0 | 70.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.0 | 3.19 | 10.30 | 16.79 | 2.00 | 74.8 | 90.0 |
+| XI | XI | Reinildo Mandava | DEF | 17 | 4.0 | 3.27 | 8.69 | 14.05 | 1.00 | 73.5 | 90.0 |
+| Bench 3 | Bench | Gabriel Gudmundsson | DEF | 11 | 4.0 | 2.30 | 7.09 | 11.69 | 9.00 | 67.5 | 79.0 |
+| Bench 4 | Bench | Daniel Ballard | DEF | 17 | 4.6 | 1.99 | 5.99 | 10.50 | 0.00 | 12.8 | 0.0 |
+| XI | XI | Chris Wood | FWD | 16 | 7.6 | 6.31 | 16.48 | 25.17 | 2.00 | 82.3 | 72.0 |
+| XI | XI | Hugo Ekitiké | FWD | 12 | 8.6 | 4.41 | 15.70 | 25.72 | 2.00 | 73.8 | 78.0 |
+| Bench 2 | Bench | Junior Kroupi | FWD | 4 | 4.5 | 2.59 | 5.39 | 8.77 | 2.00 | 24.2 | 18.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 14.5 | 7.14 | 22.64 | 37.77 | 3.00 | 90.0 | 90.0 |
+| Vice Captain | XI | Bruno Borges Fernandes | MID | 14 | 9.0 | 6.92 | 17.28 | 27.22 | 10.00 | 90.0 | 90.0 |
+| XI | XI | Antoine Semenyo | MID | 4 | 7.2 | 4.49 | 15.52 | 23.95 | 2.00 | 82.6 | 90.0 |
+| XI | XI | Mohammed Kudus | MID | 18 | 6.6 | 5.09 | 15.10 | 23.70 | 2.00 | 85.7 | 90.0 |
+| XI | XI | Tijjani Reijnders | MID | 13 | 5.6 | 3.74 | 12.42 | 19.14 | 2.00 | 69.7 | 90.0 |
+
+## GW4
+
+- Train rows: 163384
+- Bank: 3.80 -> 3.70
+- Free transfers: 2 -> 2
+- Captain: Mohamed Salah
+- Vice captain: João Pedro Junqueira de Jesus
+- Effective captain: Mohamed Salah
+- Chip used: bench_boost
+- Predicted score: 66.04
+- Actual score: 79.00
+- Chip rationale: Optimizer chose Bench Boost here because the current estimated bench gain (7.34) beats the best remaining Bench Boost opportunity (8.84).
+- Transfer: Chris Wood -> João Pedro Junqueira de Jesus (projected gain 11.07, hit 0)
+- Chip used: Bench Boost. Optimizer chose Bench Boost here because the current estimated bench gain (7.34) beats the best remaining Bench Boost opportunity (8.84).
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Robin Roefs | GK | 17 | 4.5 | 2.79 | 9.39 | 14.82 | 10.00 | 86.2 | 90.0 |
+| Bench 1 | Bench Boost | Daniel Bentley | GK | 20 | 4.0 | 0.31 | 1.48 | 1.64 | 0.00 | 9.0 | 0.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.0 | 4.00 | 11.95 | 18.43 | 9.00 | 84.2 | 90.0 |
+| XI | XI | Pedro Porro Sauceda | DEF | 18 | 5.5 | 3.85 | 10.97 | 16.88 | 6.00 | 66.9 | 90.0 |
+| XI | XI | Reinildo Mandava | DEF | 17 | 4.0 | 2.88 | 8.20 | 12.64 | 6.00 | 74.4 | 90.0 |
+| Bench 3 | Bench Boost | Gabriel Gudmundsson | DEF | 11 | 4.0 | 2.27 | 7.19 | 11.19 | 0.00 | 59.5 | 90.0 |
+| Bench 4 | Bench Boost | Daniel Ballard | DEF | 17 | 4.6 | 1.01 | 4.05 | 6.94 | 0.00 | 12.0 | 0.0 |
+| Vice Captain | XI | João Pedro Junqueira de Jesus | FWD | 7 | 7.7 | 5.59 | 17.03 | 25.79 | 7.00 | 77.9 | 78.0 |
+| XI | XI | Hugo Ekitiké | FWD | 12 | 8.7 | 5.20 | 15.70 | 24.33 | 2.00 | 69.3 | 71.0 |
+| Bench 2 | Bench Boost | Junior Kroupi | FWD | 4 | 4.5 | 3.27 | 6.88 | 9.81 | 0.00 | 37.0 | 0.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 14.5 | 8.19 | 23.75 | 37.82 | 9.00 | 90.0 | 90.0 |
+| XI | XI | Antoine Semenyo | MID | 4 | 7.2 | 5.47 | 17.01 | 24.92 | 13.00 | 79.5 | 90.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 9.0 | 5.05 | 14.79 | 24.00 | 2.00 | 76.1 | 90.0 |
+| XI | XI | Mohammed Kudus | MID | 18 | 6.6 | 4.13 | 12.72 | 19.57 | 3.00 | 69.2 | 90.0 |
+| XI | XI | Tijjani Reijnders | MID | 13 | 5.6 | 3.83 | 11.81 | 18.40 | 3.00 | 76.8 | 90.0 |
+
+## GW5
+
+- Train rows: 164124
+- Bank: 3.70 -> 2.10
+- Free transfers: 2 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Antoine Semenyo
+- Effective captain: Mohamed Salah
+- Chip used: triple_captain
+- Predicted score: 65.98
+- Actual score: 63.00
+- Chip rationale: Optimizer chose Triple Captain here because the current estimated captain upside (7.88) beats the best remaining Triple Captain opportunity (0.00).
+- Transfer: Reinildo Mandava -> Daniel Muñoz Mejía (projected gain 3.58, hit 0)
+- Chip used: Triple Captain on Mohamed Salah. Optimizer chose Triple Captain here because the current estimated captain upside (7.88) beats the best remaining Triple Captain opportunity (0.00).
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Robin Roefs | GK | 17 | 4.5 | 3.13 | 9.49 | 15.57 | 2.00 | 88.2 | 90.0 |
+| Bench 1 | Bench | Daniel Bentley | GK | 20 | 4.0 | 0.54 | 1.30 | 1.92 | 0.00 | 9.7 | 0.0 |
+| XI | XI | Daniel Muñoz Mejía | DEF | 8 | 5.6 | 4.47 | 12.48 | 18.98 | 2.00 | 75.9 | 90.0 |
+| XI | XI | Pedro Porro Sauceda | DEF | 18 | 5.5 | 4.26 | 12.13 | 19.08 | 1.00 | 81.6 | 88.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.0 | 4.15 | 11.86 | 18.51 | 2.00 | 81.8 | 90.0 |
+| Bench 2 | Bench | Gabriel Gudmundsson | DEF | 11 | 4.0 | 2.57 | 7.08 | 11.43 | 4.00 | 66.5 | 90.0 |
+| Bench 4 | Bench | Daniel Ballard | DEF | 17 | 4.6 | 0.94 | 3.14 | 5.26 | 1.00 | 7.5 | 53.0 |
+| XI | XI | João Pedro Junqueira de Jesus | FWD | 7 | 7.7 | 5.53 | 16.25 | 25.92 | 2.00 | 78.6 | 90.0 |
+| XI | XI | Hugo Ekitiké | FWD | 12 | 8.7 | 3.51 | 11.89 | 19.98 | 8.00 | 49.9 | 66.0 |
+| Bench 3 | Bench | Junior Kroupi | FWD | 4 | 4.5 | 2.27 | 4.82 | 7.10 | 0.00 | 22.8 | 0.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 14.5 | 7.51 | 22.43 | 36.69 | 5.00 | 90.0 | 90.0 |
+| Vice Captain | XI | Antoine Semenyo | MID | 4 | 7.3 | 5.74 | 17.66 | 26.90 | 5.00 | 80.9 | 90.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 9.0 | 5.29 | 14.77 | 23.50 | 10.00 | 81.1 | 86.0 |
+| XI | XI | Mohammed Kudus | MID | 18 | 6.6 | 4.01 | 12.05 | 19.76 | 7.00 | 75.1 | 90.0 |
+| XI | XI | Tijjani Reijnders | MID | 13 | 5.6 | 3.36 | 10.73 | 17.88 | 9.00 | 78.3 | 90.0 |

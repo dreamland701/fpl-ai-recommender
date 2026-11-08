@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+"""Attach TEAM-level article context to every player of that club.
+
+Wes, 2026-09-13: "the press questioned Man United's rotation during the
+midweek UEFA game... and the praise for Arsenal's defence should have been
+picked up and rated Arsenal's defence higher."
+
+Both stories were in our sources and neither reached the relevant players,
+because `attach_player_evidence_to_corpus.py` matches on SURNAME. Measured:
+the Guardian piece on Arsenal's defensive start (4,794 chars, discusses
+conceding) mentions Gabriel 0 times, White 0 times, Saliba 0 times — so
+Arsenal's two best defenders got nothing from an article about exactly
+their value. Same for rotation: a manager-presser piece about resting
+players for Europe rarely names the individuals who will be rested.
+
+This adds a SEPARATE channel: metadata.team_context. An article qualifies
+when its title names a club AND its body carries a team-level signal
+(rotation/rest/congestion, or defensive solidity). The window is centred on
+that signal, not on a player. Kept apart from evidence_documents so the
+prompt change is a clean single variable and player evidence is never
+displaced.
+"""
+from __future__ import annotations
+
+import argparse, csv, json, re
+from pathlib import Path
+
+ROTATION = re.compile(
+    r"rotat\w*|rest(ed|ing)?\b|squad depth|turnover|congest\w*|"
+    r"midweek|Europa|Champions League|heavy schedule|three games in",
+    re.IGNORECASE,
+)
+DEFENCE = re.compile(
+    r"clean sheet\w*|defensive (record|solidity|display|unit)|back(line| four)|"
+    r"concede[ds]?\b|conceding|miserly|water ?tight|shut ?out",
+    re.IGNORECASE,
+)
+SIGNALS = (("rotation", ROTATION), ("defence", DEFENCE))
+
+# Live-blogs and match reports are already covered by the player-evidence
+# channel, and they swamp this one: they are long, numerous, and full of
+# reader mailbag chatter, so they out-score the analysis pieces that actually
+# carry team-level judgement (2026-09-13: Arsenal defenders were handed a
+# discussion of kit colours). The signal Wes wants — "the press questioned
+# United's rotation", "praise for Arsenal's defence" — lives in pressers and
+# analysis, so exclude the match-coverage genre here.
+# Women's football / youth / non-PL competitions share club names and were
+# matching men's-squad rows (2026-09-13: Shaw handed a WSL report).
+OFF_COMPETITION = re.compile(
+    r"\bWSL\b|Women'?s Super League|women'?s|\bU21\b|\bU18\b|academy|"
+    r"Carabao|EFL|Championship|Serie A|Bundesliga|La Liga|Ligue 1",
+    re.IGNORECASE,
+)
+MATCH_COVERAGE = re.compile(
+    r"as it happened|–\s*live|: live|clockwatch|player ratings|"
+    r"^\w[\w' ]+ \d+-\d+ \w",
+    re.IGNORECASE,
+)
+
+
+def load_team_names(history_root: Path, season: str) -> dict[int, list[str]]:
+    path = history_root / season / "teams.csv"
+    out: dict[int, list[str]] = {}
+    if not path.exists():
+        return out
+    for row in csv.DictReader(open(path)):
+        try:
+            tid = int(row["id"])
+        except (KeyError, ValueError):
+            continue
+        full = row.get("name", "")
+        names = [full]  # short_name codes (MUN/ARS/LEE) collide with words
+                        # like "Munich" — 2026-09-13: Shaw was handed a Bayern
+                        # Munich article. Full names + explicit aliases only.
+        # "Man Utd" -> also match "Manchester United"; "Spurs" -> "Tottenham"
+        alias = {
+            "Man Utd": ["Manchester United"], "Man City": ["Manchester City"],
+            "Spurs": ["Tottenham"], "Nott'm Forest": ["Nottingham Forest"],
+            "Newcastle": ["Newcastle United"], "Wolves": ["Wolverhampton"],
+        }.get(full, [])
+        out[tid] = [n for n in names + alias if n and len(n) >= 5]
+    return out
+
+
+def window(content: str, match: re.Match, budget: int) -> str:
+    half = budget // 2
+    start = max(0, min(match.start() - half, max(0, len(content) - budget)))
+    piece = content[start : start + budget].strip()
+    return ("… " if start else "") + piece + (" …" if start + budget < len(content) else "")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--corpus", required=True)
+    ap.add_argument("--evidence", action="append", required=True)
+    ap.add_argument("--output", required=True)
+    ap.add_argument("--history-root", default="data/fpl_history")
+    ap.add_argument("--max-chars", type=int, default=400)
+    ap.add_argument("--lookback-days", type=int, default=14)
+    ap.add_argument("--proximity", type=int, default=600,
+                    help="max chars between the club mention and the team signal")
+    a = ap.parse_args()
+
+    docs = []
+    for path in a.evidence:
+        if not Path(path).exists():
+            continue
+        for line in open(path):
+            d = json.loads(line)
+            title = str(d.get("title") or ""); body = " ".join(str(d.get("content") or "").split())
+            if not title or len(body) < 300:
+                continue
+            if MATCH_COVERAGE.search(title) or OFF_COMPETITION.search(title):
+                continue
+            docs.append((title, body, str(d.get("published_at") or d.get("published_ts") or ""),
+                         str(d.get("source_name") or "unknown")))
+    print(f"candidate articles: {len(docs)}")
+
+    names_by_season: dict[str, dict[int, list[str]]] = {}
+    attached = 0
+    kinds: dict[str, int] = {}
+    with open(a.output, "w") as out:
+        for line in open(a.corpus):
+            row = json.loads(line)
+            md = row["metadata"]; season = str(md.get("season")); tid = int(md.get("team_id") or -1)
+            if season not in names_by_season:
+                names_by_season[season] = load_team_names(Path(a.history_root), season)
+            club_names = names_by_season[season].get(tid, [])
+            deadline = str(md.get("deadline_ts") or "")
+            best = None
+            if club_names:
+                club_re = re.compile(r"\b(?:" + "|".join(re.escape(n) for n in club_names) + r")\b", re.IGNORECASE)
+                for title, body, published, source in docs:
+                    if published and deadline and published >= deadline:
+                        continue  # chrono-legal: never use post-deadline text
+                    if not club_re.search(title):
+                        continue
+                    club_spans = [m.start() for m in club_re.finditer(body)]
+                    if not club_spans:
+                        continue
+                    for kind, pattern in SIGNALS:
+                        # The signal must sit NEAR a mention of THIS club, else a
+                        # multi-match live-blog hands Leeds a paragraph about
+                        # Liverpool (2026-09-13 bug).
+                        hits = [m for m in pattern.finditer(body)
+                                if min(abs(m.start() - c) for c in club_spans) <= a.proximity]
+                        if not hits:
+                            continue
+                        cand = (len(hits), published, kind, title, source,
+                                window(body, hits[0], a.max_chars))
+                        if best is None or cand[:2] > best[:2]:
+                            best = cand
+                        break
+            if best:
+                md["team_context"] = {"published_at": best[1], "kind": best[2], "title": best[3],
+                                      "source_name": best[4], "text": best[5]}
+                attached += 1; kinds[best[2]] = kinds.get(best[2], 0) + 1
+            else:
+                md["team_context"] = None
+            out.write(json.dumps(row, ensure_ascii=False) + "\n")
+    print(f"team_context attached: {attached} rows | by signal: {kinds} -> {a.output}")
+
+
+if __name__ == "__main__":
+    main()

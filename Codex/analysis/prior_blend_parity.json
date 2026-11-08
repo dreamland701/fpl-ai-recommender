@@ -1,0 +1,2948 @@
+{
+  "week": 6,
+  "blend_flag": "1",
+  "live_players": 667,
+  "different_players": 420,
+  "differences": [
+    {
+      "code": 178301,
+      "player": "Watkins",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 4.394736842105263,
+      "absolute_difference": 4.394736842105263
+    },
+    {
+      "code": 221466,
+      "player": "Senesi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.941441441441442,
+      "absolute_difference": 3.941441441441442
+    },
+    {
+      "code": 560262,
+      "player": "Kroupi.Jr",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.7837837837837838,
+      "absolute_difference": 3.7837837837837838
+    },
+    {
+      "code": 462424,
+      "player": "Saliba",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.7027027027027026,
+      "absolute_difference": 3.7027027027027026
+    },
+    {
+      "code": 180736,
+      "player": "Chalobah",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.675675675675676,
+      "absolute_difference": 3.675675675675676
+    },
+    {
+      "code": 106611,
+      "player": "Keane",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.4473684210526314,
+      "absolute_difference": 3.4473684210526314
+    },
+    {
+      "code": 510663,
+      "player": "Ekitik\u00e9",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.289473684210526,
+      "absolute_difference": 3.289473684210526
+    },
+    {
+      "code": 592031,
+      "player": "Minteh",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 3.1621621621621623,
+      "absolute_difference": 3.1621621621621623
+    },
+    {
+      "code": 444765,
+      "player": "Van den Berg",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.973684210526316,
+      "absolute_difference": 2.973684210526316
+    },
+    {
+      "code": 201895,
+      "player": "Alderete",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.7412280701754383,
+      "absolute_difference": 2.7412280701754383
+    },
+    {
+      "code": 212319,
+      "player": "Richarlison",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.609649122807018,
+      "absolute_difference": 2.609649122807018
+    },
+    {
+      "code": 67089,
+      "player": "Dubravka",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.5945945945945947,
+      "absolute_difference": 2.5945945945945947
+    },
+    {
+      "code": 470313,
+      "player": "Woltemade",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.5714285714285716,
+      "absolute_difference": 2.5714285714285716
+    },
+    {
+      "code": 231747,
+      "player": "Mateta",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.5675675675675675,
+      "absolute_difference": 2.5675675675675675
+    },
+    {
+      "code": 433036,
+      "player": "Reijnders",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.5555555555555554,
+      "absolute_difference": 2.5555555555555554
+    },
+    {
+      "code": 101188,
+      "player": "Digne",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.5526315789473686,
+      "absolute_difference": 2.5526315789473686
+    },
+    {
+      "code": 215059,
+      "player": "S\u00e1nchez",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.545045045045045,
+      "absolute_difference": 2.545045045045045
+    },
+    {
+      "code": 98747,
+      "player": "Pope",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.526315789473684,
+      "absolute_difference": 2.526315789473684
+    },
+    {
+      "code": 248875,
+      "player": "Doku",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 2.8333333333333335,
+      "absolute_difference": 2.5
+    },
+    {
+      "code": 566213,
+      "player": "Mfuni",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 0.5,
+      "absolute_difference": 2.5
+    },
+    {
+      "code": 486672,
+      "player": "Caicedo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.4774774774774775,
+      "absolute_difference": 2.4774774774774775
+    },
+    {
+      "code": 445122,
+      "player": "J.Timber",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 2.7957957957957964,
+      "absolute_difference": 2.462462462462463
+    },
+    {
+      "code": 78916,
+      "player": "Burn",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.4473684210526314,
+      "absolute_difference": 2.4473684210526314
+    },
+    {
+      "code": 493250,
+      "player": "Amad",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.3947368421052633,
+      "absolute_difference": 2.3947368421052633
+    },
+    {
+      "code": 221632,
+      "player": "Romero",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.3947368421052633,
+      "absolute_difference": 2.3947368421052633
+    },
+    {
+      "code": 184254,
+      "player": "Vicario",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.3684210526315788,
+      "absolute_difference": 2.3684210526315788
+    },
+    {
+      "code": 232185,
+      "player": "Sarr",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 2.690690690690691,
+      "absolute_difference": 2.3573573573573574
+    },
+    {
+      "code": 493362,
+      "player": "Xavi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.2857142857142856,
+      "absolute_difference": 2.2857142857142856
+    },
+    {
+      "code": 503301,
+      "player": "Hutchinson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.2162162162162162,
+      "absolute_difference": 2.2162162162162162
+    },
+    {
+      "code": 207283,
+      "player": "Jensen",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.149122807017544,
+      "absolute_difference": 2.149122807017544
+    },
+    {
+      "code": 206915,
+      "player": "C.Jones",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.1315789473684212,
+      "absolute_difference": 2.1315789473684212
+    },
+    {
+      "code": 232859,
+      "player": "Spence",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.0526315789473686,
+      "absolute_difference": 2.0526315789473686
+    },
+    {
+      "code": 532529,
+      "player": "Hinshelwood",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.0495495495495497,
+      "absolute_difference": 2.0495495495495497
+    },
+    {
+      "code": 449871,
+      "player": "Onana",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 2.0,
+      "absolute_difference": 2.0
+    },
+    {
+      "code": 214225,
+      "player": "Rodon",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.9639639639639643,
+      "absolute_difference": 1.9639639639639643
+    },
+    {
+      "code": 209046,
+      "player": "Hudson-Odoi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.929824561403509,
+      "absolute_difference": 1.929824561403509
+    },
+    {
+      "code": 180974,
+      "player": "Joelinton",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.9210526315789473,
+      "absolute_difference": 1.9210526315789473
+    },
+    {
+      "code": 59735,
+      "player": "Darlow",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.9189189189189189,
+      "absolute_difference": 1.9189189189189189
+    },
+    {
+      "code": 220566,
+      "player": "Rodrigo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.9166666666666667,
+      "absolute_difference": 1.9166666666666667
+    },
+    {
+      "code": 482442,
+      "player": "P.M.Sarr",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.868421052631579,
+      "absolute_difference": 1.868421052631579
+    },
+    {
+      "code": 224117,
+      "player": "Gy\u00f6keres",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 2.528528528528529,
+      "absolute_difference": 1.8618618618618625
+    },
+    {
+      "code": 489888,
+      "player": "Adli",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.8611111111111112,
+      "absolute_difference": 1.8611111111111112
+    },
+    {
+      "code": 486385,
+      "player": "Beto",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.8245614035087723,
+      "absolute_difference": 1.8245614035087723
+    },
+    {
+      "code": 549912,
+      "player": "Talbi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.8201754385964912,
+      "absolute_difference": 1.8201754385964912
+    },
+    {
+      "code": 167074,
+      "player": "Tete",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.7763157894736845,
+      "absolute_difference": 1.7763157894736845
+    },
+    {
+      "code": 220362,
+      "player": "Disasi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.75,
+      "absolute_difference": 1.75
+    },
+    {
+      "code": 467779,
+      "player": "Wieffer",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.6936936936936937,
+      "absolute_difference": 1.6936936936936937
+    },
+    {
+      "code": 451340,
+      "player": "Mitoma",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.6756756756756757,
+      "absolute_difference": 1.6756756756756757
+    },
+    {
+      "code": 448514,
+      "player": "A\u00eft-Nouri",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.6666666666666667,
+      "absolute_difference": 1.6666666666666667
+    },
+    {
+      "code": 538207,
+      "player": "Osula",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.6666666666666667,
+      "absolute_difference": 1.6666666666666667
+    },
+    {
+      "code": 121709,
+      "player": "Benitez",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 1.015015015015015,
+      "absolute_difference": 1.6516516516516515
+    },
+    {
+      "code": 512462,
+      "player": "O'Brien",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 2.2573099415204685,
+      "absolute_difference": 1.590643274853802
+    },
+    {
+      "code": 444145,
+      "player": "Martinelli",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.5405405405405406,
+      "absolute_difference": 1.5405405405405406
+    },
+    {
+      "code": 432830,
+      "player": "Collins",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.8640350877192984,
+      "absolute_difference": 1.5307017543859651
+    },
+    {
+      "code": 535301,
+      "player": "Baleba",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.5135135135135136,
+      "absolute_difference": 1.5135135135135136
+    },
+    {
+      "code": 486520,
+      "player": "Gruev",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.5135135135135136,
+      "absolute_difference": 1.5135135135135136
+    },
+    {
+      "code": 448104,
+      "player": "Hincapie",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.8169934640522878,
+      "absolute_difference": 1.4836601307189545
+    },
+    {
+      "code": 226182,
+      "player": "Bogle",
+      "live_helper_points_avg_3": 11.333333333333334,
+      "with_prior_context_points_avg_3": 9.876876876876876,
+      "absolute_difference": 1.4564564564564577
+    },
+    {
+      "code": 610799,
+      "player": "Vuskovic",
+      "live_helper_points_avg_3": 8.666666666666666,
+      "with_prior_context_points_avg_3": 7.222222222222222,
+      "absolute_difference": 1.4444444444444438
+    },
+    {
+      "code": 172649,
+      "player": "Henderson",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 2.1036036036036037,
+      "absolute_difference": 1.4369369369369371
+    },
+    {
+      "code": 243526,
+      "player": "Gudmundsson",
+      "live_helper_points_avg_3": 4.666666666666667,
+      "with_prior_context_points_avg_3": 3.2522522522522523,
+      "absolute_difference": 1.4144144144144146
+    },
+    {
+      "code": 485047,
+      "player": "Morato",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.394736842105263,
+      "absolute_difference": 1.394736842105263
+    },
+    {
+      "code": 244858,
+      "player": "Carvalho",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 0.618421052631579,
+      "absolute_difference": 1.381578947368421
+    },
+    {
+      "code": 613804,
+      "player": "Diouf",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 2.0467836257309946,
+      "absolute_difference": 1.380116959064328
+    },
+    {
+      "code": 153682,
+      "player": "Wilson",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.6959064327485383,
+      "absolute_difference": 1.362573099415205
+    },
+    {
+      "code": 463067,
+      "player": "Georginio",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.678678678678679,
+      "absolute_difference": 1.3453453453453457
+    },
+    {
+      "code": 209244,
+      "player": "Foden",
+      "live_helper_points_avg_3": -0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.9907407407407408,
+      "absolute_difference": 1.3240740740740742
+    },
+    {
+      "code": 231065,
+      "player": "Pinnock",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.011695906432748,
+      "absolute_difference": 1.321637426900585
+    },
+    {
+      "code": 174874,
+      "player": "Andersen",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.9517543859649122,
+      "absolute_difference": 1.2850877192982457
+    },
+    {
+      "code": 472769,
+      "player": "O'Reilly",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.925925925925926,
+      "absolute_difference": 1.2592592592592595
+    },
+    {
+      "code": 242882,
+      "player": "Diakit\u00e9",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.2432432432432432,
+      "absolute_difference": 1.2432432432432432
+    },
+    {
+      "code": 550839,
+      "player": "Odobert",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.2105263157894737,
+      "absolute_difference": 1.2105263157894737
+    },
+    {
+      "code": 216055,
+      "player": "Florentino",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.869281045751634,
+      "absolute_difference": 1.2026143790849675
+    },
+    {
+      "code": 434752,
+      "player": "Bijol",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.5045045045045047,
+      "absolute_difference": 1.1711711711711714
+    },
+    {
+      "code": 201595,
+      "player": "Perri",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.162162162162162,
+      "absolute_difference": 1.162162162162162
+    },
+    {
+      "code": 515046,
+      "player": "Ellborg",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.1428571428571428,
+      "absolute_difference": 1.1428571428571428
+    },
+    {
+      "code": 547027,
+      "player": "Diarra",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.1403508771929827,
+      "absolute_difference": 1.1403508771929827
+    },
+    {
+      "code": 194010,
+      "player": "Henry",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.1403508771929824,
+      "absolute_difference": 1.1403508771929824
+    },
+    {
+      "code": 209365,
+      "player": "De Ligt",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.131578947368421,
+      "absolute_difference": 1.131578947368421
+    },
+    {
+      "code": 500151,
+      "player": "Savona",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.1142857142857143,
+      "absolute_difference": 1.1142857142857143
+    },
+    {
+      "code": 56979,
+      "player": "Henderson",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.777777777777778,
+      "absolute_difference": 1.1111111111111112
+    },
+    {
+      "code": 492777,
+      "player": "Bradley",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.105263157894737,
+      "absolute_difference": 1.105263157894737
+    },
+    {
+      "code": 219168,
+      "player": "Isak",
+      "live_helper_points_avg_3": 7.666666666666667,
+      "with_prior_context_points_avg_3": 6.568713450292398,
+      "absolute_difference": 1.0979532163742691
+    },
+    {
+      "code": 184349,
+      "player": "Sessegnon",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.4166666666666667,
+      "absolute_difference": 1.0833333333333335
+    },
+    {
+      "code": 76357,
+      "player": "Cairney",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.0789473684210527,
+      "absolute_difference": 1.0789473684210527
+    },
+    {
+      "code": 248857,
+      "player": "Madueke",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.4084084084084088,
+      "absolute_difference": 1.0750750750750755
+    },
+    {
+      "code": 647850,
+      "player": "Kostoulas",
+      "live_helper_points_avg_3": 7.333333333333333,
+      "with_prior_context_points_avg_3": 6.268768768768768,
+      "absolute_difference": 1.0645645645645647
+    },
+    {
+      "code": 60307,
+      "player": "Gro\u00df",
+      "live_helper_points_avg_3": 10.666666666666666,
+      "with_prior_context_points_avg_3": 9.61111111111111,
+      "absolute_difference": 1.0555555555555554
+    },
+    {
+      "code": 250199,
+      "player": "Dominguez",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.0526315789473684,
+      "absolute_difference": 1.0526315789473684
+    },
+    {
+      "code": 448089,
+      "player": "Gomes",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 2.3723723723723724,
+      "absolute_difference": 1.0390390390390392
+    },
+    {
+      "code": 50175,
+      "player": "Welbeck",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 2.369369369369369,
+      "absolute_difference": 1.036036036036036
+    },
+    {
+      "code": 152551,
+      "player": "Lerma",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.3543543543543546,
+      "absolute_difference": 1.0210210210210213
+    },
+    {
+      "code": 232112,
+      "player": "Ugarte",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 1.0,
+      "absolute_difference": 1.0
+    },
+    {
+      "code": 184341,
+      "player": "Mount",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.3274853801169593,
+      "absolute_difference": 0.994152046783626
+    },
+    {
+      "code": 116535,
+      "player": "A.Becker",
+      "live_helper_points_avg_3": 8.333333333333334,
+      "with_prior_context_points_avg_3": 7.343567251461989,
+      "absolute_difference": 0.9897660818713447
+    },
+    {
+      "code": 83299,
+      "player": "Dunk",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 4.678678678678679,
+      "absolute_difference": 0.9879879879879878
+    },
+    {
+      "code": 223541,
+      "player": "Chiesa",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.9736842105263158,
+      "absolute_difference": 0.9736842105263158
+    },
+    {
+      "code": 489706,
+      "player": "Devenny",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.972972972972973,
+      "absolute_difference": 0.972972972972973
+    },
+    {
+      "code": 433154,
+      "player": "McNeil",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.9298245614035088,
+      "absolute_difference": 0.9298245614035088
+    },
+    {
+      "code": 606745,
+      "player": "Heaven",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.9210526315789475,
+      "absolute_difference": 0.9210526315789475
+    },
+    {
+      "code": 200834,
+      "player": "Mukiele",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 2.2492492492492495,
+      "absolute_difference": 0.9159159159159163
+    },
+    {
+      "code": 477424,
+      "player": "Gvardiol",
+      "live_helper_points_avg_3": 7.666666666666667,
+      "with_prior_context_points_avg_3": 6.75462962962963,
+      "absolute_difference": 0.9120370370370372
+    },
+    {
+      "code": 513418,
+      "player": "Schade",
+      "live_helper_points_avg_3": 8.666666666666666,
+      "with_prior_context_points_avg_3": 7.77046783625731,
+      "absolute_difference": 0.8961988304093564
+    },
+    {
+      "code": 449027,
+      "player": "Mamardashvili",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.8947368421052632,
+      "absolute_difference": 0.8947368421052632
+    },
+    {
+      "code": 535818,
+      "player": "Adingra",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.8947368421052632,
+      "absolute_difference": 0.8947368421052632
+    },
+    {
+      "code": 517052,
+      "player": "N.Jackson",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 1.7777777777777777,
+      "absolute_difference": 0.8888888888888888
+    },
+    {
+      "code": 75115,
+      "player": "Wilson",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.219298245614035,
+      "absolute_difference": 0.8859649122807018
+    },
+    {
+      "code": 575458,
+      "player": "Jair Cunha",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.1140350877192984,
+      "absolute_difference": 0.8859649122807016
+    },
+    {
+      "code": 515597,
+      "player": "Bogarde",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.8771929824561403,
+      "absolute_difference": 0.8771929824561403
+    },
+    {
+      "code": 171287,
+      "player": "Gomez",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.868421052631579,
+      "absolute_difference": 0.868421052631579
+    },
+    {
+      "code": 492859,
+      "player": "Gnonto",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.8648648648648649,
+      "absolute_difference": 0.8648648648648649
+    },
+    {
+      "code": 246301,
+      "player": "J.Cuenca",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.855263157894737,
+      "absolute_difference": 0.855263157894737
+    },
+    {
+      "code": 248056,
+      "player": "Tanaka",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.492492492492492,
+      "absolute_difference": 0.840840840840841
+    },
+    {
+      "code": 210462,
+      "player": "I.Sangar\u00e9",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.5043859649122806,
+      "absolute_difference": 0.837719298245614
+    },
+    {
+      "code": 432720,
+      "player": "Trafford",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 4.50462962962963,
+      "absolute_difference": 0.8287037037037033
+    },
+    {
+      "code": 225796,
+      "player": "James",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.4804804804804805,
+      "absolute_difference": 0.8138138138138139
+    },
+    {
+      "code": 201666,
+      "player": "Barnes",
+      "live_helper_points_avg_3": 7.666666666666667,
+      "with_prior_context_points_avg_3": 6.853801169590644,
+      "absolute_difference": 0.8128654970760234
+    },
+    {
+      "code": 480455,
+      "player": "Branthwaite",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 4.862573099415204,
+      "absolute_difference": 0.8040935672514626
+    },
+    {
+      "code": 232413,
+      "player": "Eze",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.4624624624624625,
+      "absolute_difference": 0.7957957957957958
+    },
+    {
+      "code": 485337,
+      "player": "Guessand",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.7927927927927929,
+      "absolute_difference": 0.7927927927927929
+    },
+    {
+      "code": 204968,
+      "player": "Yates",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.7894736842105263,
+      "absolute_difference": 0.7894736842105263
+    },
+    {
+      "code": 465730,
+      "player": "De Cuyper",
+      "live_helper_points_avg_3": 7.0,
+      "with_prior_context_points_avg_3": 6.211711711711712,
+      "absolute_difference": 0.788288288288288
+    },
+    {
+      "code": 180135,
+      "player": "Longstaff",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.1201201201201203,
+      "absolute_difference": 0.786786786786787
+    },
+    {
+      "code": 550864,
+      "player": "Yoro",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.0935672514619883,
+      "absolute_difference": 0.760233918128655
+    },
+    {
+      "code": 491279,
+      "player": "Van de Ven",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 4.573099415204679,
+      "absolute_difference": 0.7602339181286544
+    },
+    {
+      "code": 485055,
+      "player": "Kinsky",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.254385964912281,
+      "absolute_difference": 0.7456140350877192
+    },
+    {
+      "code": 476887,
+      "player": "Bakwa",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.7428571428571429,
+      "absolute_difference": 0.7428571428571429
+    },
+    {
+      "code": 487676,
+      "player": "Hume",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.409356725146199,
+      "absolute_difference": 0.7426900584795323
+    },
+    {
+      "code": 510281,
+      "player": "S\u00e1vio",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 1.9305555555555554,
+      "absolute_difference": 0.7361111111111112
+    },
+    {
+      "code": 168636,
+      "player": "Enes \u00dcnal",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.7297297297297297,
+      "absolute_difference": 0.7297297297297297
+    },
+    {
+      "code": 490094,
+      "player": "Iroegbunam",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.0614035087719298,
+      "absolute_difference": 0.7280701754385965
+    },
+    {
+      "code": 653481,
+      "player": "Alysson",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 1.6111111111111112,
+      "absolute_difference": 0.7222222222222223
+    },
+    {
+      "code": 472739,
+      "player": "Rushworth",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.611111111111111,
+      "absolute_difference": 0.7222222222222219
+    },
+    {
+      "code": 500040,
+      "player": "Mosquera",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.7207207207207208,
+      "absolute_difference": 0.7207207207207208
+    },
+    {
+      "code": 209289,
+      "player": "Smith Rowe",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.3859649122807016,
+      "absolute_difference": 0.719298245614035
+    },
+    {
+      "code": 550615,
+      "player": "George",
+      "live_helper_points_avg_3": 4.666666666666667,
+      "with_prior_context_points_avg_3": 3.9590643274853803,
+      "absolute_difference": 0.7076023391812867
+    },
+    {
+      "code": 141746,
+      "player": "B.Fernandes",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.6973684210526314,
+      "absolute_difference": 0.6973684210526314
+    },
+    {
+      "code": 208706,
+      "player": "Bruno G.",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 3.359649122807017,
+      "absolute_difference": 0.6929824561403506
+    },
+    {
+      "code": 463936,
+      "player": "Gittens",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.6756756756756757,
+      "absolute_difference": 0.6756756756756757
+    },
+    {
+      "code": 437738,
+      "player": "Bornauw",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.6756756756756757,
+      "absolute_difference": 0.6756756756756757
+    },
+    {
+      "code": 244954,
+      "player": "Pau",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.0087719298245614,
+      "absolute_difference": 0.6754385964912282
+    },
+    {
+      "code": 204580,
+      "player": "Janelt",
+      "live_helper_points_avg_3": 6.0,
+      "with_prior_context_points_avg_3": 5.324561403508772,
+      "absolute_difference": 0.6754385964912277
+    },
+    {
+      "code": 441264,
+      "player": "Brobbey",
+      "live_helper_points_avg_3": 6.666666666666667,
+      "with_prior_context_points_avg_3": 5.993650793650795,
+      "absolute_difference": 0.6730158730158724
+    },
+    {
+      "code": 119471,
+      "player": "Sch\u00e4r",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 1.0058479532163744,
+      "absolute_difference": 0.6725146198830412
+    },
+    {
+      "code": 428580,
+      "player": "Onyeka",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 1.6608187134502925,
+      "absolute_difference": 0.672514619883041
+    },
+    {
+      "code": 247348,
+      "player": "Mu\u00f1oz",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 2.3363363363363367,
+      "absolute_difference": 0.66966966966967
+    },
+    {
+      "code": 244723,
+      "player": "Mitchell",
+      "live_helper_points_avg_3": 7.666666666666667,
+      "with_prior_context_points_avg_3": 6.996996996996997,
+      "absolute_difference": 0.6696696696696698
+    },
+    {
+      "code": 216094,
+      "player": "Frimpong",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.9956140350877193,
+      "absolute_difference": 0.6622807017543859
+    },
+    {
+      "code": 434399,
+      "player": "Reinildo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.649122807017544,
+      "absolute_difference": 0.649122807017544
+    },
+    {
+      "code": 205651,
+      "player": "G.Jesus",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.6486486486486487,
+      "absolute_difference": 0.6486486486486487
+    },
+    {
+      "code": 17761,
+      "player": "Tarkowski",
+      "live_helper_points_avg_3": 8.333333333333334,
+      "with_prior_context_points_avg_3": 7.690058479532165,
+      "absolute_difference": 0.6432748538011692
+    },
+    {
+      "code": 482609,
+      "player": "Gusto",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.3093093093093096,
+      "absolute_difference": 0.6426426426426429
+    },
+    {
+      "code": 575476,
+      "player": "Murillo",
+      "live_helper_points_avg_3": 6.0,
+      "with_prior_context_points_avg_3": 5.364035087719298,
+      "absolute_difference": 0.6359649122807021
+    },
+    {
+      "code": 554197,
+      "player": "Rigg",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.6315789473684211,
+      "absolute_difference": 0.6315789473684211
+    },
+    {
+      "code": 222683,
+      "player": "Kluivert",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.3693693693693696,
+      "absolute_difference": 0.6306306306306304
+    },
+    {
+      "code": 516895,
+      "player": "Mainoo",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 5.042397660818714,
+      "absolute_difference": 0.6242690058479532
+    },
+    {
+      "code": 611695,
+      "player": "Yalcouy\u00e9",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.0555555555555554,
+      "absolute_difference": 0.6111111111111112
+    },
+    {
+      "code": 204120,
+      "player": "Boscagli",
+      "live_helper_points_avg_3": 4.666666666666667,
+      "with_prior_context_points_avg_3": 4.064564564564565,
+      "absolute_difference": 0.6021021021021022
+    },
+    {
+      "code": 487838,
+      "player": "Hall",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 5.068713450292398,
+      "absolute_difference": 0.5979532163742691
+    },
+    {
+      "code": 493105,
+      "player": "Garnacho",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.9234234234234234,
+      "absolute_difference": 0.5900900900900901
+    },
+    {
+      "code": 209400,
+      "player": "Kamada",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 4.746246246246247,
+      "absolute_difference": 0.5870870870870863
+    },
+    {
+      "code": 243571,
+      "player": "Patterson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5789473684210527,
+      "absolute_difference": 0.5789473684210527
+    },
+    {
+      "code": 167512,
+      "player": "O'Nien",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5701754385964912,
+      "absolute_difference": 0.5701754385964912
+    },
+    {
+      "code": 509416,
+      "player": "Ayari",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.771771771771771,
+      "absolute_difference": 0.5615615615615619
+    },
+    {
+      "code": 149484,
+      "player": "Mings",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.43859649122807,
+      "absolute_difference": 0.5614035087719298
+    },
+    {
+      "code": 620487,
+      "player": "Milosavljevi\u0107",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5588235294117647,
+      "absolute_difference": 0.5588235294117647
+    },
+    {
+      "code": 577725,
+      "player": "King",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.442982456140351,
+      "absolute_difference": 0.557017543859649
+    },
+    {
+      "code": 469142,
+      "player": "Van Hecke",
+      "live_helper_points_avg_3": 7.333333333333333,
+      "with_prior_context_points_avg_3": 6.777777777777777,
+      "absolute_difference": 0.5555555555555562
+    },
+    {
+      "code": 200089,
+      "player": "Willock",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.7777777777777777,
+      "absolute_difference": 0.5555555555555554
+    },
+    {
+      "code": 215711,
+      "player": "Bailey",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5526315789473685,
+      "absolute_difference": 0.5526315789473685
+    },
+    {
+      "code": 230001,
+      "player": "Mazraoui",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.8640350877192982,
+      "absolute_difference": 0.5307017543859649
+    },
+    {
+      "code": 224967,
+      "player": "Mykolenko",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 5.138888888888889,
+      "absolute_difference": 0.5277777777777777
+    },
+    {
+      "code": 437730,
+      "player": "Semenyo",
+      "live_helper_points_avg_3": 8.666666666666666,
+      "with_prior_context_points_avg_3": 8.157407407407407,
+      "absolute_difference": 0.5092592592592595
+    },
+    {
+      "code": 502697,
+      "player": "Alcaraz",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5087719298245615,
+      "absolute_difference": 0.5087719298245615
+    },
+    {
+      "code": 184029,
+      "player": "\u00d8degaard",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.5,
+      "absolute_difference": 0.5
+    },
+    {
+      "code": 567119,
+      "player": "Mheuka",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5,
+      "absolute_difference": 0.5
+    },
+    {
+      "code": 660392,
+      "player": "Uche",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.5,
+      "absolute_difference": 0.5
+    },
+    {
+      "code": 195546,
+      "player": "Buend\u00eda",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 5.169590643274854,
+      "absolute_difference": 0.4970760233918128
+    },
+    {
+      "code": 201658,
+      "player": "Tavernier",
+      "live_helper_points_avg_3": 6.666666666666667,
+      "with_prior_context_points_avg_3": 6.1726726726726735,
+      "absolute_difference": 0.49399399399399346
+    },
+    {
+      "code": 109646,
+      "player": "Tosin",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.8213213213213214,
+      "absolute_difference": 0.4879879879879881
+    },
+    {
+      "code": 463034,
+      "player": "Delap",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.183183183183183,
+      "absolute_difference": 0.4834834834834836
+    },
+    {
+      "code": 465351,
+      "player": "Matheus N.",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.8055555555555554,
+      "absolute_difference": 0.4722222222222219
+    },
+    {
+      "code": 199796,
+      "player": "Cash",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 2.1374269005847957,
+      "absolute_difference": 0.47076023391812893
+    },
+    {
+      "code": 532605,
+      "player": "Andrey Santos",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.8018018018018017,
+      "absolute_difference": 0.4684684684684684
+    },
+    {
+      "code": 494521,
+      "player": "Truffert",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 2.1321321321321323,
+      "absolute_difference": 0.4654654654654655
+    },
+    {
+      "code": 449434,
+      "player": "Elanga",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.7982456140350876,
+      "absolute_difference": 0.46491228070175433
+    },
+    {
+      "code": 441266,
+      "player": "Gravenberch",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.4649122807017543,
+      "absolute_difference": 0.4649122807017543
+    },
+    {
+      "code": 499604,
+      "player": "Rayan",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.4642857142857144,
+      "absolute_difference": 0.4642857142857144
+    },
+    {
+      "code": 235826,
+      "player": "Piroe",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.4594594594594595,
+      "absolute_difference": 0.4594594594594595
+    },
+    {
+      "code": 97032,
+      "player": "Virgil",
+      "live_helper_points_avg_3": 7.333333333333333,
+      "with_prior_context_points_avg_3": 6.878654970760233,
+      "absolute_difference": 0.4546783625730999
+    },
+    {
+      "code": 487053,
+      "player": "Udogie",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.2149122807017545,
+      "absolute_difference": 0.45175438596491224
+    },
+    {
+      "code": 515621,
+      "player": "Chadi Riad",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.4504504504504505,
+      "absolute_difference": 0.4504504504504505
+    },
+    {
+      "code": 219847,
+      "player": "Havertz",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.2177177177177176,
+      "absolute_difference": 0.4489489489489489
+    },
+    {
+      "code": 477064,
+      "player": "Lewis",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.4398148148148148,
+      "absolute_difference": 0.4398148148148148
+    },
+    {
+      "code": 481655,
+      "player": "Zubimendi",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.4324324324324325,
+      "absolute_difference": 0.43243243243243246
+    },
+    {
+      "code": 608181,
+      "player": "Tzimas",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.43243243243243246,
+      "absolute_difference": 0.43243243243243246
+    },
+    {
+      "code": 533463,
+      "player": "O.Dango",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.4298245614035086,
+      "absolute_difference": 0.42982456140350855
+    },
+    {
+      "code": 122798,
+      "player": "Robertson",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.574561403508772,
+      "absolute_difference": 0.42543859649122817
+    },
+    {
+      "code": 441302,
+      "player": "Maatsen",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.2514619883040936,
+      "absolute_difference": 0.4152046783625729
+    },
+    {
+      "code": 551226,
+      "player": "Fernandes",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.7361111111111112,
+      "absolute_difference": 0.4027777777777779
+    },
+    {
+      "code": 427637,
+      "player": "Aaronson",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.4009009009009008,
+      "absolute_difference": 0.4009009009009008
+    },
+    {
+      "code": 227444,
+      "player": "Milenkovi\u0107",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.7324561403508776,
+      "absolute_difference": 0.3991228070175441
+    },
+    {
+      "code": 611922,
+      "player": "Ngumoha",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.7324561403508771,
+      "absolute_difference": 0.3991228070175438
+    },
+    {
+      "code": 153366,
+      "player": "Reed",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.39473684210526316,
+      "absolute_difference": 0.39473684210526316
+    },
+    {
+      "code": 176297,
+      "player": "Rashford",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 1.9444444444444446,
+      "absolute_difference": 0.38888888888888884
+    },
+    {
+      "code": 122806,
+      "player": "McGinn",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.618421052631579,
+      "absolute_difference": 0.38157894736842124
+    },
+    {
+      "code": 231416,
+      "player": "F.Kad\u0131o\u011flu",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 3.9519519519519513,
+      "absolute_difference": 0.3813813813813818
+    },
+    {
+      "code": 210156,
+      "player": "Awoniyi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.37719298245614036,
+      "absolute_difference": 0.37719298245614036
+    },
+    {
+      "code": 465694,
+      "player": "N.Gonzalez",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.375,
+      "absolute_difference": 0.375
+    },
+    {
+      "code": 498016,
+      "player": "Roefs",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.7076023391812865,
+      "absolute_difference": 0.3742690058479532
+    },
+    {
+      "code": 108413,
+      "player": "Hughes",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 1.033033033033033,
+      "absolute_difference": 0.36636636636636644
+    },
+    {
+      "code": 437499,
+      "player": "Lacroix",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.3603603603603602,
+      "absolute_difference": 0.36036036036036023
+    },
+    {
+      "code": 489639,
+      "player": "Verbruggen",
+      "live_helper_points_avg_3": 5.666666666666667,
+      "with_prior_context_points_avg_3": 5.307807807807808,
+      "absolute_difference": 0.35885885885885926
+    },
+    {
+      "code": 499309,
+      "player": "Marc Guiu",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.35135135135135137,
+      "absolute_difference": 0.35135135135135137
+    },
+    {
+      "code": 72147,
+      "player": "M.Bizot",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.3508771929824561,
+      "absolute_difference": 0.3508771929824561
+    },
+    {
+      "code": 502500,
+      "player": "Thiago",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 3.0160818713450293,
+      "absolute_difference": 0.34941520467836273
+    },
+    {
+      "code": 205533,
+      "player": "Nketiah",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.3183183183183185,
+      "absolute_difference": 0.34834834834834827
+    },
+    {
+      "code": 513466,
+      "player": "R\u00f6hl",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.6809523809523809,
+      "absolute_difference": 0.34761904761904755
+    },
+    {
+      "code": 199798,
+      "player": "Konsa",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.3216374269005846,
+      "absolute_difference": 0.3450292397660819
+    },
+    {
+      "code": 226944,
+      "player": "Kamara",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.323099415204678,
+      "absolute_difference": 0.3435672514619883
+    },
+    {
+      "code": 200641,
+      "player": "Nelson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.34210526315789475,
+      "absolute_difference": 0.34210526315789475
+    },
+    {
+      "code": 431639,
+      "player": "Flemming",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.3378378378378377,
+      "absolute_difference": 0.3378378378378377
+    },
+    {
+      "code": 457569,
+      "player": "Petrovi\u0107",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.6696696696696696,
+      "absolute_difference": 0.3363363363363363
+    },
+    {
+      "code": 240514,
+      "player": "Scherpen",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.6666666666666666,
+      "absolute_difference": 0.33333333333333337
+    },
+    {
+      "code": 220627,
+      "player": "Justin",
+      "live_helper_points_avg_3": 4.666666666666667,
+      "with_prior_context_points_avg_3": 4.336507936507937,
+      "absolute_difference": 0.3301587301587299
+    },
+    {
+      "code": 135720,
+      "player": "Danso",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.3289473684210527,
+      "absolute_difference": 0.32894736842105265
+    },
+    {
+      "code": 435997,
+      "player": "Okafor",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.671296296296297,
+      "absolute_difference": 0.3287037037037033
+    },
+    {
+      "code": 106760,
+      "player": "Shaw",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.3245614035087723,
+      "absolute_difference": 0.3245614035087723
+    },
+    {
+      "code": 221399,
+      "player": "Harrison",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.32432432432432434,
+      "absolute_difference": 0.32432432432432434
+    },
+    {
+      "code": 174594,
+      "player": "Nmecha",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.3243243243243243,
+      "absolute_difference": 0.32432432432432434
+    },
+    {
+      "code": 158983,
+      "player": "Endo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.3157894736842105,
+      "absolute_difference": 0.3157894736842105
+    },
+    {
+      "code": 432714,
+      "player": "McAtee",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.0190058479532165,
+      "absolute_difference": 0.314327485380117
+    },
+    {
+      "code": 221389,
+      "player": "John",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.3142857142857143,
+      "absolute_difference": 0.3142857142857143
+    },
+    {
+      "code": 494307,
+      "player": "Alleyne",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.3125,
+      "absolute_difference": 0.3125
+    },
+    {
+      "code": 570526,
+      "player": "Bergvall",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.9780701754385965,
+      "absolute_difference": 0.3114035087719299
+    },
+    {
+      "code": 111317,
+      "player": "Brooks",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.975975975975976,
+      "absolute_difference": 0.30930930930930933
+    },
+    {
+      "code": 469272,
+      "player": "Tchaouna",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.975975975975976,
+      "absolute_difference": 0.30930930930930933
+    },
+    {
+      "code": 219924,
+      "player": "Diop",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.358187134502924,
+      "absolute_difference": 0.3084795321637426
+    },
+    {
+      "code": 461199,
+      "player": "Mundle",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.30701754385964913,
+      "absolute_difference": 0.30701754385964913
+    },
+    {
+      "code": 485711,
+      "player": "\u0160e\u0161ko",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.307017543859649,
+      "absolute_difference": 0.30701754385964897
+    },
+    {
+      "code": 184667,
+      "player": "Lindel\u00f6f",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.3603174603174604,
+      "absolute_difference": 0.30634920634920615
+    },
+    {
+      "code": 444463,
+      "player": "Fofana",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.3633633633633635,
+      "absolute_difference": 0.303303303303303
+    },
+    {
+      "code": 651426,
+      "player": "Canvot",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.7058823529411766,
+      "absolute_difference": 0.2941176470588234
+    },
+    {
+      "code": 172780,
+      "player": "Maddison",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.37280701754385964,
+      "absolute_difference": 0.293859649122807
+    },
+    {
+      "code": 544877,
+      "player": "Kerkez",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.706140350877193,
+      "absolute_difference": 0.29385964912280693
+    },
+    {
+      "code": 222694,
+      "player": "Struijk",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.626126126126126,
+      "absolute_difference": 0.2927927927927927
+    },
+    {
+      "code": 458249,
+      "player": "Zirkzee",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.9590643274853803,
+      "absolute_difference": 0.29239766081871366
+    },
+    {
+      "code": 536661,
+      "player": "N.Angulo",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.376984126984127,
+      "absolute_difference": 0.28968253968253954
+    },
+    {
+      "code": 451302,
+      "player": "Bayindir",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.2894736842105263,
+      "absolute_difference": 0.2894736842105263
+    },
+    {
+      "code": 202993,
+      "player": "Bentancur",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.710526315789474,
+      "absolute_difference": 0.2894736842105261
+    },
+    {
+      "code": 514254,
+      "player": "Gomez",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.048048048048048,
+      "absolute_difference": 0.2852852852852852
+    },
+    {
+      "code": 462635,
+      "player": "Gelhardt",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.05555555555555555,
+      "absolute_difference": 0.2777777777777778
+    },
+    {
+      "code": 465920,
+      "player": "Mudryk",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.05555555555555555,
+      "absolute_difference": 0.2777777777777778
+    },
+    {
+      "code": 474120,
+      "player": "Enciso",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.388888888888889,
+      "absolute_difference": 0.2777777777777777
+    },
+    {
+      "code": 503139,
+      "player": "Scott",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 5.057057057057057,
+      "absolute_difference": 0.2762762762762758
+    },
+    {
+      "code": 98980,
+      "player": "Martinez",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.6081871345029244,
+      "absolute_difference": 0.2748538011695909
+    },
+    {
+      "code": 465642,
+      "player": "Thiaw",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.9415204678362574,
+      "absolute_difference": 0.2748538011695907
+    },
+    {
+      "code": 226597,
+      "player": "Gabriel",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 4.274774774774775,
+      "absolute_difference": 0.27477477477477485
+    },
+    {
+      "code": 215413,
+      "player": "Dewsbury-Hall",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.6067251461988303,
+      "absolute_difference": 0.27339181286549685
+    },
+    {
+      "code": 247412,
+      "player": "Strand Larsen",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.393393393393393,
+      "absolute_difference": 0.27327327327327344
+    },
+    {
+      "code": 232892,
+      "player": "Bassey",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.062865497076023,
+      "absolute_difference": 0.27046783625730964
+    },
+    {
+      "code": 550090,
+      "player": "Coppola",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.2702702702702703,
+      "absolute_difference": 0.2702702702702703
+    },
+    {
+      "code": 154561,
+      "player": "Raya",
+      "live_helper_points_avg_3": 6.0,
+      "with_prior_context_points_avg_3": 5.72972972972973,
+      "absolute_difference": 0.2702702702702702
+    },
+    {
+      "code": 577285,
+      "player": "George Hemmings",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.4012345679012348,
+      "absolute_difference": 0.26543209876543195
+    },
+    {
+      "code": 115556,
+      "player": "Davies",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.2631578947368421,
+      "absolute_difference": 0.2631578947368421
+    },
+    {
+      "code": 477555,
+      "player": "Bobb",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.4064327485380117,
+      "absolute_difference": 0.2602339181286548
+    },
+    {
+      "code": 243298,
+      "player": "Gakpo",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.741228070175438,
+      "absolute_difference": 0.25877192982456165
+    },
+    {
+      "code": 424876,
+      "player": "Szoboszlai",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.9239766081871346,
+      "absolute_difference": 0.25730994152046804
+    },
+    {
+      "code": 159506,
+      "player": "Aina",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.2543859649122808,
+      "absolute_difference": 0.2543859649122808
+    },
+    {
+      "code": 591386,
+      "player": "Nyoni",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.4122807017543859,
+      "absolute_difference": 0.2543859649122807
+    },
+    {
+      "code": 114243,
+      "player": "J.Murphy",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.9152046783625731,
+      "absolute_difference": 0.2485380116959065
+    },
+    {
+      "code": 560552,
+      "player": "Kevin",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.9111111111111111,
+      "absolute_difference": 0.24444444444444446
+    },
+    {
+      "code": 508479,
+      "player": "J\u00f6rgensen",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.24324324324324326,
+      "absolute_difference": 0.24324324324324326
+    },
+    {
+      "code": 609873,
+      "player": "Armstrong",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.7587719298245614,
+      "absolute_difference": 0.24122807017543857
+    },
+    {
+      "code": 111234,
+      "player": "Pickford",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.758771929824562,
+      "absolute_difference": 0.24122807017543835
+    },
+    {
+      "code": 577016,
+      "player": "Acheampong",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.5735735735735736,
+      "absolute_difference": 0.24024024024024032
+    },
+    {
+      "code": 511499,
+      "player": "Tel",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.5730994152046784,
+      "absolute_difference": 0.23976608187134518
+    },
+    {
+      "code": 597320,
+      "player": "Howell",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.23529411764705882,
+      "absolute_difference": 0.23529411764705882
+    },
+    {
+      "code": 496208,
+      "player": "Gannon-Doak",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.7657657657657657,
+      "absolute_difference": 0.23423423423423428
+    },
+    {
+      "code": 215379,
+      "player": "Anderson",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.5672514619883042,
+      "absolute_difference": 0.23391812865497075
+    },
+    {
+      "code": 247632,
+      "player": "Neto",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.22972972972973,
+      "absolute_difference": 0.22972972972972983
+    },
+    {
+      "code": 223094,
+      "player": "Haaland",
+      "live_helper_points_avg_3": 8.0,
+      "with_prior_context_points_avg_3": 7.773148148148149,
+      "absolute_difference": 0.2268518518518512
+    },
+    {
+      "code": 470315,
+      "player": "Netz",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.5595238095238095,
+      "absolute_difference": 0.22619047619047622
+    },
+    {
+      "code": 214285,
+      "player": "Tsimikas",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.1111111111111111,
+      "absolute_difference": 0.2222222222222222
+    },
+    {
+      "code": 616288,
+      "player": "McAidoo",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.1111111111111111,
+      "absolute_difference": 0.2222222222222222
+    },
+    {
+      "code": 191866,
+      "player": "Ajer",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.1111111111111116,
+      "absolute_difference": 0.22222222222222188
+    },
+    {
+      "code": 499175,
+      "player": "Nwaneri",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.21621621621621623,
+      "absolute_difference": 0.21621621621621623
+    },
+    {
+      "code": 514356,
+      "player": "Lavia",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.7837837837837838,
+      "absolute_difference": 0.21621621621621623
+    },
+    {
+      "code": 169528,
+      "player": "Robinson",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.7850877192982457,
+      "absolute_difference": 0.21491228070175428
+    },
+    {
+      "code": 84450,
+      "player": "Xhaka",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.2105263157894735,
+      "absolute_difference": 0.21052631578947345
+    },
+    {
+      "code": 216051,
+      "player": "Dalot",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.8757309941520468,
+      "absolute_difference": 0.20906432748538006
+    },
+    {
+      "code": 200785,
+      "player": "Adams",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.1246246246246248,
+      "absolute_difference": 0.20870870870870872
+    },
+    {
+      "code": 204936,
+      "player": "Donnarumma",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 5.126262626262626,
+      "absolute_difference": 0.20707070707070674
+    },
+    {
+      "code": 441164,
+      "player": "Pedro Porro",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.8728070175438596,
+      "absolute_difference": 0.20614035087719307
+    },
+    {
+      "code": 430871,
+      "player": "Cunha",
+      "live_helper_points_avg_3": 5.0,
+      "with_prior_context_points_avg_3": 4.793859649122807,
+      "absolute_difference": 0.20614035087719262
+    },
+    {
+      "code": 232787,
+      "player": "Gallagher",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.7941176470588234,
+      "absolute_difference": 0.20588235294117663
+    },
+    {
+      "code": 465680,
+      "player": "Kalimuendo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.20270270270270271,
+      "absolute_difference": 0.20270270270270271
+    },
+    {
+      "code": 432422,
+      "player": "Tonali",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.133040935672515,
+      "absolute_difference": 0.20029239766081863
+    },
+    {
+      "code": 616221,
+      "player": "Souza",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.2,
+      "absolute_difference": 0.2
+    },
+    {
+      "code": 171314,
+      "player": "R\u00faben",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.1342592592592595,
+      "absolute_difference": 0.19907407407407351
+    },
+    {
+      "code": 232928,
+      "player": "Garner",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 3.1973684210526314,
+      "absolute_difference": 0.19736842105263142
+    },
+    {
+      "code": 195384,
+      "player": "Merino",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.8573573573573573,
+      "absolute_difference": 0.19069069069069067
+    },
+    {
+      "code": 624773,
+      "player": "Est\u00eav\u00e3o",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.1891891891891893,
+      "absolute_difference": 0.18918918918918926
+    },
+    {
+      "code": 128295,
+      "player": "N\u00f8rgaard",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.1891891891891892,
+      "absolute_difference": 0.1891891891891892
+    },
+    {
+      "code": 242880,
+      "player": "B.Badiashile",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.1891891891891892,
+      "absolute_difference": 0.1891891891891892
+    },
+    {
+      "code": 80201,
+      "player": "Leno",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.146198830409356,
+      "absolute_difference": 0.1871345029239766
+    },
+    {
+      "code": 232653,
+      "player": "J.Ramsey",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.8157894736842106,
+      "absolute_difference": 0.18421052631578938
+    },
+    {
+      "code": 173879,
+      "player": "Abraham",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.1777777777777778,
+      "absolute_difference": 0.1777777777777778
+    },
+    {
+      "code": 166477,
+      "player": "Castagne",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.489766081871345,
+      "absolute_difference": 0.17690058479532134
+    },
+    {
+      "code": 223827,
+      "player": "Ballard",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.175438596491228,
+      "absolute_difference": 0.17543859649122817
+    },
+    {
+      "code": 199598,
+      "player": "Ampadu",
+      "live_helper_points_avg_3": 4.666666666666667,
+      "with_prior_context_points_avg_3": 4.4924924924924925,
+      "absolute_difference": 0.17417417417417447
+    },
+    {
+      "code": 631786,
+      "player": "Kusi-Asare",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.17142857142857143,
+      "absolute_difference": 0.17142857142857143
+    },
+    {
+      "code": 209036,
+      "player": "Gu\u00e9hi",
+      "live_helper_points_avg_3": 6.0,
+      "with_prior_context_points_avg_3": 5.828703703703703,
+      "absolute_difference": 0.17129629629629672
+    },
+    {
+      "code": 496221,
+      "player": "Wharton",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.171171171171171,
+      "absolute_difference": 0.1711711711711712
+    },
+    {
+      "code": 249231,
+      "player": "Lewis-Potter",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 2.1710526315789473,
+      "absolute_difference": 0.17105263157894735
+    },
+    {
+      "code": 440089,
+      "player": "Damsgaard",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.8289473684210527,
+      "absolute_difference": 0.17105263157894735
+    },
+    {
+      "code": 91651,
+      "player": "Kova\u010di\u0107",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.16666666666666669,
+      "absolute_difference": 0.16666666666666669
+    },
+    {
+      "code": 204480,
+      "player": "Rice",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 4.162162162162162,
+      "absolute_difference": 0.16216216216216228
+    },
+    {
+      "code": 223434,
+      "player": "Igor",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.16216216216216217,
+      "absolute_difference": 0.16216216216216217
+    },
+    {
+      "code": 551210,
+      "player": "Hato",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.8378378378378378,
+      "absolute_difference": 0.16216216216216217
+    },
+    {
+      "code": 218364,
+      "player": "Sosa",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.16216216216216217,
+      "absolute_difference": 0.16216216216216217
+    },
+    {
+      "code": 79602,
+      "player": "Bentley",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.16216216216216217,
+      "absolute_difference": 0.16216216216216217
+    },
+    {
+      "code": 155503,
+      "player": "Woodman",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.15789473684210525,
+      "absolute_difference": 0.15789473684210525
+    },
+    {
+      "code": 219249,
+      "player": "O'Riley",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.5105105105105106,
+      "absolute_difference": 0.15615615615615608
+    },
+    {
+      "code": 85633,
+      "player": "Sels",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.516081871345029,
+      "absolute_difference": 0.1505847953216377
+    },
+    {
+      "code": 54469,
+      "player": "Smith",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.8168168168168168,
+      "absolute_difference": 0.1501501501501502
+    },
+    {
+      "code": 460028,
+      "player": "Colwill",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.5165165165165165,
+      "absolute_difference": 0.1501501501501501
+    },
+    {
+      "code": 475168,
+      "player": "Jo\u00e3o Pedro",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.483483483483483,
+      "absolute_difference": 0.1501501501501501
+    },
+    {
+      "code": 438234,
+      "player": "Marmoush",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.8518518518518519,
+      "absolute_difference": 0.14814814814814814
+    },
+    {
+      "code": 244850,
+      "player": "Rogers",
+      "live_helper_points_avg_3": 5.333333333333333,
+      "with_prior_context_points_avg_3": 5.185672514619883,
+      "absolute_difference": 0.14766081871345005
+    },
+    {
+      "code": 441191,
+      "player": "Livramento",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.4795321637426901,
+      "absolute_difference": 0.14619883040935688
+    },
+    {
+      "code": 166989,
+      "player": "Tielemans",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.52046783625731,
+      "absolute_difference": 0.14619883040935644
+    },
+    {
+      "code": 496661,
+      "player": "Dibling",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.4722222222222222,
+      "absolute_difference": 0.1388888888888889
+    },
+    {
+      "code": 586309,
+      "player": "Barry",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.1944444444444446,
+      "absolute_difference": 0.13888888888888884
+    },
+    {
+      "code": 114283,
+      "player": "Grealish",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.8040935672514622,
+      "absolute_difference": 0.13742690058479545
+    },
+    {
+      "code": 549074,
+      "player": "Watson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.13513513513513514,
+      "absolute_difference": 0.13513513513513514
+    },
+    {
+      "code": 614574,
+      "player": "T\u00f3th.A",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.4666666666666667,
+      "absolute_difference": 0.13333333333333336
+    },
+    {
+      "code": 606798,
+      "player": "A.Garc\u00eda",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.13157894736842105,
+      "absolute_difference": 0.13157894736842105
+    },
+    {
+      "code": 444884,
+      "player": "Elliott",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.13157894736842105,
+      "absolute_difference": 0.13157894736842105
+    },
+    {
+      "code": 494595,
+      "player": "Wirtz",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.8815789473684212,
+      "absolute_difference": 0.11842105263157876
+    },
+    {
+      "code": 95658,
+      "player": "Maguire",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.7836257309941521,
+      "absolute_difference": 0.11695906432748537
+    },
+    {
+      "code": 221820,
+      "player": "Martinez",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.5584795321637428,
+      "absolute_difference": 0.10818713450292394
+    },
+    {
+      "code": 606921,
+      "player": "Esse",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.10810810810810811,
+      "absolute_difference": 0.10810810810810811
+    },
+    {
+      "code": 463981,
+      "player": "Hill",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.43993993993994,
+      "absolute_difference": 0.10660660660660648
+    },
+    {
+      "code": 153133,
+      "player": "Iwobi",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.2295321637426904,
+      "absolute_difference": 0.10380116959064312
+    },
+    {
+      "code": 222531,
+      "player": "Gibbs-White",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.435672514619883,
+      "absolute_difference": 0.10233918128654995
+    },
+    {
+      "code": 154566,
+      "player": "Solanke",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.564327485380117,
+      "absolute_difference": 0.10233918128654973
+    },
+    {
+      "code": 578153,
+      "player": "Khusanov",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.7638888888888888,
+      "absolute_difference": 0.0972222222222221
+    },
+    {
+      "code": 242898,
+      "player": "Johnson",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.2372372372372373,
+      "absolute_difference": 0.09609609609609615
+    },
+    {
+      "code": 672492,
+      "player": "Drakes-Thomas",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.09523809523809523,
+      "absolute_difference": 0.09523809523809523
+    },
+    {
+      "code": 519913,
+      "player": "Fletcher",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.09523809523809523,
+      "absolute_difference": 0.09523809523809523
+    },
+    {
+      "code": 444180,
+      "player": "Anthony",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.9054054054054053,
+      "absolute_difference": 0.09459459459459474
+    },
+    {
+      "code": 244042,
+      "player": "Muniz",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.760233918128655,
+      "absolute_difference": 0.09356725146198841
+    },
+    {
+      "code": 616077,
+      "player": "Dowman",
+      "live_helper_points_avg_3": 0.3333333333333333,
+      "with_prior_context_points_avg_3": 0.42592592592592593,
+      "absolute_difference": 0.09259259259259262
+    },
+    {
+      "code": 576628,
+      "player": "Lacey",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.09259259259259259,
+      "absolute_difference": 0.09259259259259259
+    },
+    {
+      "code": 88894,
+      "player": "Barkley",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.912280701754386,
+      "absolute_difference": 0.08771929824561409
+    },
+    {
+      "code": 596777,
+      "player": "Dorgu",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.9166666666666665,
+      "absolute_difference": 0.08333333333333348
+    },
+    {
+      "code": 575901,
+      "player": "Soler",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.08108108108108109,
+      "absolute_difference": 0.08108108108108109
+    },
+    {
+      "code": 536916,
+      "player": "Buonanotte",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.08108108108108109,
+      "absolute_difference": 0.08108108108108109
+    },
+    {
+      "code": 574458,
+      "player": "M.Sarr",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.08108108108108109,
+      "absolute_difference": 0.08108108108108109
+    },
+    {
+      "code": 448047,
+      "player": "Enzo",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 4.081081081081081,
+      "absolute_difference": 0.0810810810810807
+    },
+    {
+      "code": 547037,
+      "player": "J.Fletcher",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.07894736842105263,
+      "absolute_difference": 0.07894736842105263
+    },
+    {
+      "code": 549067,
+      "player": "Abbott",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.07894736842105263,
+      "absolute_difference": 0.07894736842105263
+    },
+    {
+      "code": 488024,
+      "player": "Yeremy",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.588888888888889,
+      "absolute_difference": 0.0777777777777775
+    },
+    {
+      "code": 484420,
+      "player": "E.Le F\u00e9e",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.255847953216374,
+      "absolute_difference": 0.0774853801169586
+    },
+    {
+      "code": 465247,
+      "player": "Lammens",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.7412698412698413,
+      "absolute_difference": 0.07460317460317478
+    },
+    {
+      "code": 577669,
+      "player": "Sadiki",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.7397660818713452,
+      "absolute_difference": 0.07309941520467844
+    },
+    {
+      "code": 499169,
+      "player": "Lewis-Skelly",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.927927927927928,
+      "absolute_difference": 0.072072072072072
+    },
+    {
+      "code": 198869,
+      "player": "White",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.072072072072072,
+      "absolute_difference": 0.072072072072072
+    },
+    {
+      "code": 183656,
+      "player": "Dasilva",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.07142857142857142,
+      "absolute_difference": 0.07142857142857142
+    },
+    {
+      "code": 155408,
+      "player": "Cook",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.7357357357357357,
+      "absolute_difference": 0.06906906906906907
+    },
+    {
+      "code": 244851,
+      "player": "Palmer",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.7357357357357355,
+      "absolute_difference": 0.06906906906906896
+    },
+    {
+      "code": 508395,
+      "player": "Yarmoliuk",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.4005847953216377,
+      "absolute_difference": 0.06725146198830423
+    },
+    {
+      "code": 177815,
+      "player": "Calvert-Lewin",
+      "live_helper_points_avg_3": 4.333333333333333,
+      "with_prior_context_points_avg_3": 4.268518518518518,
+      "absolute_difference": 0.06481481481481488
+    },
+    {
+      "code": 699989,
+      "player": "Jocelin.T",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.0625,
+      "absolute_difference": 0.0625
+    },
+    {
+      "code": 466525,
+      "player": "Stach",
+      "live_helper_points_avg_3": 3.3333333333333335,
+      "with_prior_context_points_avg_3": 3.394894894894895,
+      "absolute_difference": 0.06156156156156145
+    },
+    {
+      "code": 440993,
+      "player": "Ndiaye",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 3.06140350877193,
+      "absolute_difference": 0.06140350877192979
+    },
+    {
+      "code": 590039,
+      "player": "Mukasa",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.06060606060606061,
+      "absolute_difference": 0.06060606060606061
+    },
+    {
+      "code": 593174,
+      "player": "Furo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.058823529411764705,
+      "absolute_difference": 0.058823529411764705
+    },
+    {
+      "code": 109745,
+      "player": "Arrizabalaga",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.05405405405405406,
+      "absolute_difference": 0.05405405405405406
+    },
+    {
+      "code": 590014,
+      "player": "Cardines",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.05405405405405406,
+      "absolute_difference": 0.05405405405405406
+    },
+    {
+      "code": 545477,
+      "player": "A.Murphy",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.05263157894736842,
+      "absolute_difference": 0.05263157894736842
+    },
+    {
+      "code": 490145,
+      "player": "Scarlett",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.05263157894736842,
+      "absolute_difference": 0.05263157894736842
+    },
+    {
+      "code": 519634,
+      "player": "Seelt",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.05263157894736842,
+      "absolute_difference": 0.05263157894736842
+    },
+    {
+      "code": 456512,
+      "player": "Ndoye",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.0526315789473684,
+      "absolute_difference": 0.05263157894736836
+    },
+    {
+      "code": 607464,
+      "player": "Kayode",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.7178362573099415,
+      "absolute_difference": 0.051169590643274976
+    },
+    {
+      "code": 215136,
+      "player": "N.Williams",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.616959064327485,
+      "absolute_difference": 0.04970760233918137
+    },
+    {
+      "code": 216646,
+      "player": "Wissa",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.9517543859649122,
+      "absolute_difference": 0.04824561403508776
+    },
+    {
+      "code": 576620,
+      "player": "Bendito Mantato",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.045454545454545456,
+      "absolute_difference": 0.045454545454545456
+    },
+    {
+      "code": 466052,
+      "player": "Cherki",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.9583333333333335,
+      "absolute_difference": 0.04166666666666652
+    },
+    {
+      "code": 223340,
+      "player": "Saka",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 4.04054054054054,
+      "absolute_difference": 0.04054054054054035
+    },
+    {
+      "code": 499716,
+      "player": "Rowswell",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.03571428571428571,
+      "absolute_difference": 0.03571428571428571
+    },
+    {
+      "code": 427623,
+      "player": "Richards",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.632132132132132,
+      "absolute_difference": 0.0345345345345347
+    },
+    {
+      "code": 556637,
+      "player": "Oriola",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.03333333333333333,
+      "absolute_difference": 0.03333333333333333
+    },
+    {
+      "code": 640419,
+      "player": "Byfield",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.03225806451612903,
+      "absolute_difference": 0.03225806451612903
+    },
+    {
+      "code": 214590,
+      "player": "Wan-Bissaka",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.6988304093567252,
+      "absolute_difference": 0.032163742690058506
+    },
+    {
+      "code": 243016,
+      "player": "Mac Allister",
+      "live_helper_points_avg_3": 2.6666666666666665,
+      "with_prior_context_points_avg_3": 2.695906432748538,
+      "absolute_difference": 0.029239766081871288
+    },
+    {
+      "code": 645618,
+      "player": "Burrowes",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02702702702702703,
+      "absolute_difference": 0.02702702702702703
+    },
+    {
+      "code": 491007,
+      "player": "D.Essugo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02702702702702703,
+      "absolute_difference": 0.02702702702702703
+    },
+    {
+      "code": 60689,
+      "player": "Wood",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 1.0263157894736843,
+      "absolute_difference": 0.026315789473684292
+    },
+    {
+      "code": 507433,
+      "player": "Valdimarsson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 543295,
+      "player": "Milambo",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 547676,
+      "player": "Fredricson",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 599303,
+      "player": "Neave",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 499726,
+      "player": "Olusesi",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 105717,
+      "player": "Masuaku",
+      "live_helper_points_avg_3": 0.0,
+      "with_prior_context_points_avg_3": 0.02631578947368421,
+      "absolute_difference": 0.02631578947368421
+    },
+    {
+      "code": 200617,
+      "player": "James",
+      "live_helper_points_avg_3": 0.6666666666666666,
+      "with_prior_context_points_avg_3": 0.6441441441441441,
+      "absolute_difference": 0.022522522522522515
+    },
+    {
+      "code": 158499,
+      "player": "Christie",
+      "live_helper_points_avg_3": 1.3333333333333333,
+      "with_prior_context_points_avg_3": 1.3123123123123124,
+      "absolute_difference": 0.02102102102102088
+    },
+    {
+      "code": 547701,
+      "player": "Gray",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.6461988304093569,
+      "absolute_difference": 0.020467836257309857
+    },
+    {
+      "code": 444102,
+      "player": "Evanilson",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 3.018018018018018,
+      "absolute_difference": 0.018018018018017834
+    },
+    {
+      "code": 446008,
+      "player": "Mbeumo",
+      "live_helper_points_avg_3": 4.0,
+      "with_prior_context_points_avg_3": 3.982456140350877,
+      "absolute_difference": 0.01754385964912286
+    },
+    {
+      "code": 547719,
+      "player": "L.Miley",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.9824561403508771,
+      "absolute_difference": 0.01754385964912286
+    },
+    {
+      "code": 200720,
+      "player": "Kelleher",
+      "live_helper_points_avg_3": 3.6666666666666665,
+      "with_prior_context_points_avg_3": 3.6827485380116958,
+      "absolute_difference": 0.016081871345029253
+    },
+    {
+      "code": 212314,
+      "player": "Luki\u0107",
+      "live_helper_points_avg_3": 1.6666666666666667,
+      "with_prior_context_points_avg_3": 1.682748538011696,
+      "absolute_difference": 0.016081871345029253
+    },
+    {
+      "code": 207189,
+      "player": "Berge",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.3435672514619883,
+      "absolute_difference": 0.010233918128654818
+    },
+    {
+      "code": 466075,
+      "player": "Calafiori",
+      "live_helper_points_avg_3": 3.0,
+      "with_prior_context_points_avg_3": 2.990990990990991,
+      "absolute_difference": 0.009009009009008917
+    },
+    {
+      "code": 460842,
+      "player": "Kudus",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.9912280701754386,
+      "absolute_difference": 0.00877192982456143
+    },
+    {
+      "code": 437505,
+      "player": "Isidor",
+      "live_helper_points_avg_3": 2.0,
+      "with_prior_context_points_avg_3": 1.9912280701754386,
+      "absolute_difference": 0.00877192982456143
+    },
+    {
+      "code": 472713,
+      "player": "Hickey",
+      "live_helper_points_avg_3": 1.0,
+      "with_prior_context_points_avg_3": 0.9956140350877193,
+      "absolute_difference": 0.004385964912280715
+    },
+    {
+      "code": 220237,
+      "player": "Botman",
+      "live_helper_points_avg_3": 2.3333333333333335,
+      "with_prior_context_points_avg_3": 2.334795321637427,
+      "absolute_difference": 0.0014619883040936088
+    }
+  ]
+}

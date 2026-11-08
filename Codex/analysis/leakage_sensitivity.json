@@ -1,0 +1,53 @@
+{
+  "warning": "Same existing simulator defects, final historical tables and window reset conditions in both arms. Purging is only a partial correction. Do not use these totals as clean performance estimates.",
+  "results": [
+    {
+      "start": 27,
+      "end": 30,
+      "mode": "existing",
+      "total_actual": 258.0,
+      "total_predicted": 271.34,
+      "hits": 0
+    },
+    {
+      "start": 27,
+      "end": 30,
+      "mode": "purged",
+      "total_actual": 258.0,
+      "total_predicted": 271.34,
+      "hits": 0
+    },
+    {
+      "start": 31,
+      "end": 34,
+      "mode": "existing",
+      "total_actual": 234.0,
+      "total_predicted": 264.85,
+      "hits": 0
+    },
+    {
+      "start": 31,
+      "end": 34,
+      "mode": "purged",
+      "total_actual": 234.0,
+      "total_predicted": 264.85,
+      "hits": 0
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "mode": "existing",
+      "total_actual": 270.0,
+      "total_predicted": 250.32,
+      "hits": 0
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "mode": "purged",
+      "total_actual": 270.0,
+      "total_predicted": 250.32,
+      "hits": 0
+    }
+  ]
+}

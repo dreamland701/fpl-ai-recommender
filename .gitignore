@@ -1,0 +1,35 @@
+# Not published (see README, "What is not in this repository"): fine-tuned weights, data tables,
+# evidence stores, run logs. The code that produces them and the markdown write-ups are here.
+artifacts/
+data/
+logs/
+Codex/.plot_deps/
+Codex/logs/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.parquet
+*.csv
+*.jsonl
+*.log
+*.nohup
+*.pid
+
+# derived report payloads (forecast dumps, API snapshots, decision sheets); the write-ups stay
+reports/**/*.json
+reports/**/*.txt
+reports/**/*.html
+reports/**/*.pkl
+reports/**/*.npy
+reports/**/*.npz
+
+# local tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+.DS_Store
+*.egg-info/
+.venv/

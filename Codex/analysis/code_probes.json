@@ -1,0 +1,142 @@
+{
+  "missing_523": {
+    "formations": [
+      {
+        "GK": 1,
+        "DEF": 3,
+        "MID": 4,
+        "FWD": 3
+      },
+      {
+        "GK": 1,
+        "DEF": 3,
+        "MID": 5,
+        "FWD": 2
+      },
+      {
+        "GK": 1,
+        "DEF": 4,
+        "MID": 4,
+        "FWD": 2
+      },
+      {
+        "GK": 1,
+        "DEF": 4,
+        "MID": 5,
+        "FWD": 1
+      },
+      {
+        "GK": 1,
+        "DEF": 5,
+        "MID": 3,
+        "FWD": 2
+      },
+      {
+        "GK": 1,
+        "DEF": 5,
+        "MID": 4,
+        "FWD": 1
+      },
+      {
+        "GK": 1,
+        "DEF": 4,
+        "MID": 3,
+        "FWD": 3
+      },
+      {
+        "GK": 1,
+        "DEF": 3,
+        "MID": 3,
+        "FWD": 4
+      }
+    ],
+    "chosen_score": 74.0,
+    "legal_523_score": 83.0
+  },
+  "partial_autosubs": {
+    "absent_outfield": [
+      8,
+      9,
+      13,
+      14
+    ],
+    "available_bench_outfield": [
+      6,
+      7,
+      12
+    ],
+    "final_starters": [
+      1,
+      3,
+      4,
+      5,
+      15,
+      10,
+      11
+    ],
+    "actual_subs": [],
+    "expected_available_legal_subs": [
+      6,
+      7,
+      12
+    ],
+    "notes": []
+  },
+  "future_information_prompt": {
+    "future_forecast_only_change_alters_start_prompt": true,
+    "before_outlook": "\nGW12: squad proj 87\nGW13: squad proj 87\n\n",
+    "after_outlook": "\nGW12: squad proj 87\nGW13: squad proj 1587\n\n"
+  },
+  "free_chip_advantage": {
+    "no_chip_baseline": 48.0,
+    "otherwise_default_with_bench_boost": 56.0,
+    "gain": 8.0
+  },
+  "ndjson_plan_partial_acceptance": {
+    "input": "{\"bank_transfer\": true}\n{\"chip_play\": \"bench_boost\"}",
+    "parse_succeeds": true,
+    "result": [
+      {
+        "horizon": "3gw",
+        "availability": "threshold",
+        "soft_knee": 0.8,
+        "transfer_aggressiveness": 2.0,
+        "captain_pick": null,
+        "bank_transfer": true,
+        "chip_play": "none",
+        "transfer_pick": 0
+      },
+      {
+        "horizon": "3gw",
+        "availability": "threshold",
+        "soft_knee": 0.8,
+        "transfer_aggressiveness": 2.0,
+        "captain_pick": null,
+        "bank_transfer": false,
+        "chip_play": "none",
+        "transfer_pick": 0
+      }
+    ]
+  },
+  "bank_four_free_transfers": {
+    "expected_next_current_rules": 5,
+    "actual_next": 2
+  },
+  "selling_price": {
+    "purchase": 5.0,
+    "market": 5.4,
+    "expected_current_rules": 5.2,
+    "actual": 5.4
+  },
+  "negative_forecast_application": {
+    "baseline": 0.1,
+    "delta": -2.0,
+    "backtest_result": -1.9,
+    "live_script_result": 0.0
+  },
+  "nonfinite_parser": {
+    "nan_input_result": {
+      "delta_points_1gw": 2.0
+    }
+  }
+}

@@ -1,0 +1,152 @@
+# Rolling Squad Backtest Report
+
+- Train seasons in scope: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26, 2026-27
+- In-season warm start: 2023-24 GW1-GW31
+- Simulated weeks: GW32-GW35
+- Total predicted points: 281.09
+- Total actual points: 339.00
+- Average predicted points: 70.27
+- Average actual points: 84.75
+- Total transfer hits: 0
+
+## Notes
+
+- The feature set includes lagged bonus/BPS/ICT features plus newer xG/xA/xGI/xGC/starts/defensive-contribution features when available.
+- Later-era-only features are zero-filled outside their source era and paired with expected_data_source_available / defensive_data_source_available flags so the model can distinguish missing-era zeros from real observations.
+- This squad backtest uses a synthetic starting squad at the beginning of the simulated window, approximate price carry-forward, and simple auto-sub handling.
+- Bench Boost and Triple Captain are scheduled by an explicit remaining-season optimizer that uses current squad strength plus future schedule opportunity estimates.
+- Weekly training expands through the prior deadline, so GW1-GW31 are included before the first simulated week.
+- League-average scores were not available for this run.
+
+## GW32
+
+- Train rows: 127681
+- Bank: 100.00 -> 0.10
+- Free transfers: 1 -> 2
+- Captain: Son Heung-min
+- Vice captain: Dominic Solanke
+- Effective captain: Son Heung-min
+- Chip used: none
+- Predicted score: 62.71
+- Actual score: 56.00
+- Chip advisory: bench_boost (0.62): Bench depth is strong enough that a Bench Boost is worth considering.
+- Transfer: none
+- Initial squad was constructed synthetically at the start of the backtest from week-level forecasts under a 100.0 budget.
+- Autosub: Bruno Borges Fernandes replaced Phil Foden.
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bench 1 | Bench | Bernd Leno | GK | 10 | 4.8 | 3.25 | 8.76 | 14.28 | 3.00 | 87.7 | 90.0 |
+| XI | XI | Guglielmo Vicario | GK | 18 | 5.3 | 4.24 | 8.26 | 13.28 | 4.00 | 87.1 | 90.0 |
+| XI | XI | William Saliba | DEF | 1 | 5.8 | 4.80 | 11.38 | 18.63 | 5.00 | 82.1 | 90.0 |
+| XI | XI | Benjamin White | DEF | 1 | 5.9 | 4.22 | 10.45 | 16.79 | 5.00 | 78.2 | 90.0 |
+| Bench 3 | Bench | Gabriel dos Santos Magalhães | DEF | 1 | 5.3 | 3.67 | 9.88 | 16.08 | 6.00 | 80.3 | 90.0 |
+| XI | XI | Pedro Porro | DEF | 18 | 5.9 | 4.74 | 9.54 | 14.94 | 11.00 | 81.9 | 90.0 |
+| Bench 4 | Bench | Virgil van Dijk | DEF | 11 | 6.6 | 3.64 | 9.51 | 15.65 | 1.00 | 82.7 | 90.0 |
+| XI | XI | Alexander Isak | FWD | 15 | 7.9 | 5.12 | 13.25 | 19.90 | 2.00 | 81.1 | 90.0 |
+| Vice Captain | XI | Dominic Solanke | FWD | 3 | 7.3 | 5.69 | 11.79 | 19.75 | 2.00 | 77.2 | 90.0 |
+| XI | XI | Rodrigo Muniz Carvalho | FWD | 10 | 4.7 | 4.84 | 10.01 | 15.74 | 2.00 | 79.7 | 85.0 |
+| XI | XI | Cole Palmer | MID | 7 | 6.0 | 5.43 | 17.89 | 27.58 | 5.00 | 83.7 | 73.0 |
+| XI | Bench | Phil Foden | MID | 13 | 8.2 | 5.42 | 16.23 | 26.69 | 0.00 | 76.0 | 0.0 |
+| Captain | Captain | Son Heung-min | MID | 18 | 10.1 | 6.71 | 16.22 | 26.36 | 5.00 | 81.2 | 90.0 |
+| XI | XI | Jarrod Bowen | MID | 19 | 7.9 | 4.78 | 14.28 | 23.54 | 1.00 | 83.8 | 53.0 |
+| Bench 2 | Autosub In | Bruno Borges Fernandes | MID | 14 | 8.2 | 3.74 | 11.38 | 19.43 | 9.00 | 83.8 | 90.0 |
+
+## GW33
+
+- Train rows: 128527
+- Bank: 0.10 -> 0.60
+- Free transfers: 2 -> 2
+- Captain: Cole Palmer
+- Vice captain: Luis Díaz
+- Effective captain: Cole Palmer
+- Chip used: none
+- Predicted score: 54.38
+- Actual score: 106.00
+- Transfer: Phil Foden -> Luis Díaz (projected gain 4.11, hit 0)
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Bernd Leno | GK | 10 | 4.8 | 3.31 | 8.50 | 13.80 | 9.00 | 88.0 | 90.0 |
+| Bench 1 | Bench | Guglielmo Vicario | GK | 18 | 5.3 | 2.92 | 7.78 | 12.88 | 0.00 | 86.8 | 90.0 |
+| XI | XI | William Saliba | DEF | 1 | 5.8 | 4.23 | 12.28 | 19.63 | 1.00 | 87.0 | 90.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 5.3 | 3.34 | 11.30 | 17.60 | 0.00 | 83.3 | 90.0 |
+| XI | XI | Benjamin White | DEF | 1 | 5.9 | 3.79 | 11.21 | 17.75 | 5.00 | 82.2 | 66.0 |
+| XI | XI | Virgil van Dijk | DEF | 11 | 6.6 | 4.70 | 10.42 | 16.55 | 2.00 | 84.0 | 90.0 |
+| Bench 3 | Bench | Pedro Porro | DEF | 18 | 5.9 | 2.78 | 9.20 | 14.79 | 0.00 | 84.8 | 48.0 |
+| XI | XI | Alexander Isak | FWD | 15 | 7.9 | 5.30 | 13.08 | 19.91 | 12.00 | 83.1 | 90.0 |
+| XI | XI | Dominic Solanke | FWD | 3 | 7.2 | 3.86 | 11.30 | 18.58 | 7.00 | 79.9 | 90.0 |
+| Bench 2 | Bench | Rodrigo Muniz Carvalho | FWD | 10 | 4.7 | 3.11 | 8.34 | 13.66 | 2.00 | 66.1 | 90.0 |
+| Captain | Captain | Cole Palmer | MID | 7 | 6.0 | 5.76 | 16.33 | 25.13 | 26.00 | 78.7 | 79.0 |
+| XI | XI | Son Heung-min | MID | 18 | 10.0 | 4.27 | 14.80 | 24.43 | 1.00 | 78.1 | 57.0 |
+| Vice Captain | XI | Luis Díaz | MID | 11 | 7.7 | 5.49 | 14.34 | 22.46 | 2.00 | 84.1 | 65.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 8.2 | 4.58 | 12.57 | 20.97 | 15.00 | 82.5 | 90.0 |
+| Bench 4 | Bench | Jarrod Bowen | MID | 19 | 7.8 | 1.52 | 11.11 | 18.74 | 0.00 | 23.8 | 0.0 |
+
+## GW34
+
+- Train rows: 129378
+- Bank: 0.60 -> 2.20
+- Free transfers: 2 -> 2
+- Captain: Luis Díaz
+- Vice captain: Eberechi Eze
+- Effective captain: Luis Díaz
+- Chip used: triple_captain
+- Predicted score: 94.26
+- Actual score: 112.00
+- Chip rationale: Optimizer chose Triple Captain here because the current estimated captain upside (14.05) beats the best remaining Triple Captain opportunity (14.20).
+- Transfer: Jarrod Bowen -> Eberechi Eze (projected gain 6.11, hit 0)
+- Chip used: Triple Captain on Luis Díaz. Optimizer chose Triple Captain here because the current estimated captain upside (14.05) beats the best remaining Triple Captain opportunity (14.20).
+- Autosub: Rodrigo Muniz Carvalho replaced Cole Palmer.
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | Bernd Leno | GK | 10 | 4.8 | 3.53 | 8.84 | 14.68 | 2.00 | 87.7 | 90.0 |
+| Bench 1 | Bench | Guglielmo Vicario | GK | 18 | 5.3 | 0.14 | 6.53 | 11.49 | 0.00 | 0.5 | 0.0 |
+| XI | XI | William Saliba | DEF | 1 | 5.8 | 7.83 | 13.31 | 20.75 | 14.00 | 158.0 | 180.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 5.3 | 7.21 | 12.48 | 18.95 | 12.00 | 155.8 | 180.0 |
+| XI | XI | Benjamin White | DEF | 1 | 5.9 | 7.30 | 12.29 | 19.11 | 26.00 | 132.3 | 180.0 |
+| XI | XI | Virgil van Dijk | DEF | 11 | 6.6 | 6.87 | 12.10 | 18.61 | 2.00 | 156.6 | 180.0 |
+| Bench 4 | Bench | Pedro Porro | DEF | 18 | 5.9 | 0.00 | 7.18 | 12.57 | 0.00 | 0.7 | 0.0 |
+| XI | XI | Dominic Solanke | FWD | 3 | 7.2 | 8.11 | 14.79 | 23.27 | 8.00 | 161.1 | 176.0 |
+| XI | XI | Alexander Isak | FWD | 15 | 7.9 | 5.26 | 14.58 | 23.02 | 2.00 | 78.3 | 90.0 |
+| Bench 2 | Autosub In | Rodrigo Muniz Carvalho | FWD | 10 | 4.6 | 1.87 | 7.47 | 12.25 | 5.00 | 54.2 | 90.0 |
+| XI | Bench | Cole Palmer | MID | 7 | 6.1 | 4.54 | 16.02 | 25.24 | 0.00 | 68.6 | 0.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 8.2 | 6.09 | 14.36 | 23.18 | 18.00 | 86.1 | 90.0 |
+| Captain | Captain | Luis Díaz | MID | 11 | 7.7 | 9.51 | 13.61 | 20.63 | 3.00 | 129.9 | 163.0 |
+| Vice Captain | XI | Eberechi Eze | MID | 8 | 6.1 | 8.99 | 13.52 | 20.13 | 14.00 | 140.4 | 162.0 |
+| Bench 3 | Bench | Son Heung-min | MID | 18 | 10.0 | 0.69 | 12.94 | 22.47 | 0.00 | 0.7 | 0.0 |
+
+## GW35
+
+- Train rows: 130234
+- Bank: 2.20 -> 3.30
+- Free transfers: 2 -> 2
+- Captain: Cole Palmer
+- Vice captain: Son Heung-min
+- Effective captain: Cole Palmer
+- Chip used: bench_boost
+- Predicted score: 69.74
+- Actual score: 65.00
+- Chip rationale: Optimizer chose Bench Boost here because the current estimated bench gain (17.25) beats the best remaining Bench Boost opportunity (0.00).
+- Chip advisory: bench_boost (0.58): Double-gameweek coverage plus usable bench minutes make this a stronger-than-usual Bench Boost spot.
+- Transfer: Pedro Porro -> Joachim Andersen (projected gain 7.58, hit 0)
+- Chip used: Bench Boost. Optimizer chose Bench Boost here because the current estimated bench gain (17.25) beats the best remaining Bench Boost opportunity (0.00).
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bench 1 | Bench Boost | Bernd Leno | GK | 10 | 4.8 | 3.59 | 8.37 | 13.91 | 3.00 | 86.5 | 90.0 |
+| XI | XI | Guglielmo Vicario | GK | 18 | 5.3 | 3.75 | 5.68 | 9.61 | 2.00 | 124.6 | 180.0 |
+| XI | XI | Benjamin White | DEF | 1 | 5.9 | 3.85 | 14.89 | 23.73 | 1.00 | 76.4 | 90.0 |
+| XI | XI | William Saliba | DEF | 1 | 5.8 | 3.23 | 14.13 | 22.41 | 1.00 | 78.0 | 90.0 |
+| Bench 2 | Bench Boost | Gabriel dos Santos Magalhães | DEF | 1 | 5.3 | 3.21 | 13.35 | 20.83 | 1.00 | 79.8 | 90.0 |
+| XI | XI | Virgil van Dijk | DEF | 11 | 6.6 | 3.40 | 11.61 | 18.34 | 1.00 | 76.1 | 90.0 |
+| Bench 3 | Bench Boost | Joachim Andersen | DEF | 8 | 4.7 | 2.84 | 11.40 | 17.96 | 1.00 | 84.3 | 90.0 |
+| XI | XI | Alexander Isak | FWD | 15 | 8.0 | 5.20 | 17.26 | 27.30 | 13.00 | 84.1 | 90.0 |
+| XI | XI | Dominic Solanke | FWD | 3 | 7.3 | 4.38 | 13.64 | 21.45 | 2.00 | 66.6 | 90.0 |
+| XI | XI | Rodrigo Muniz Carvalho | FWD | 10 | 4.5 | 3.76 | 8.76 | 13.42 | 6.00 | 78.3 | 84.0 |
+| XI | XI | Bruno Borges Fernandes | MID | 14 | 8.3 | 4.89 | 17.42 | 28.05 | 4.00 | 86.4 | 90.0 |
+| Captain | Captain | Cole Palmer | MID | 7 | 6.1 | 7.13 | 14.97 | 24.19 | 8.00 | 131.2 | 180.0 |
+| XI | XI | Luis Díaz | MID | 11 | 7.7 | 3.55 | 12.85 | 20.13 | 5.00 | 66.5 | 78.0 |
+| Vice Captain | XI | Son Heung-min | MID | 18 | 9.9 | 7.10 | 12.55 | 20.76 | 9.00 | 111.9 | 180.0 |
+| Bench 4 | Bench Boost | Eberechi Eze | MID | 8 | 6.1 | 2.73 | 11.06 | 17.67 | 0.00 | 61.5 | 0.0 |

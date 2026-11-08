@@ -1,0 +1,90 @@
+[
+  {
+    "season": "2019-20",
+    "ownership_max": 3983614.0,
+    "ownership_median": 26756.0,
+    "fraction_ownership_gt100": 0.9691241783620537,
+    "flagged_rate": 0.296962160241606,
+    "flag_change_players_after_w1": 27,
+    "players": 666,
+    "raw_has_status": false,
+    "gw1_zero_prices": 526
+  },
+  {
+    "season": "2020-21",
+    "ownership_max": 5186954.0,
+    "ownership_median": 21948.0,
+    "fraction_ownership_gt100": 0.9597074138358542,
+    "flagged_rate": 0.19452020828167618,
+    "flag_change_players_after_w1": 37,
+    "players": 713,
+    "raw_has_status": false,
+    "gw1_zero_prices": 425
+  },
+  {
+    "season": "2021-22",
+    "ownership_max": 6483921.0,
+    "ownership_median": 21362.0,
+    "fraction_ownership_gt100": 0.9482642865605624,
+    "flagged_rate": 0.3320563958769401,
+    "flag_change_players_after_w1": 34,
+    "players": 737,
+    "raw_has_status": false,
+    "gw1_zero_prices": 554
+  },
+  {
+    "season": "2022-23",
+    "ownership_max": 9582624.0,
+    "ownership_median": 20280.0,
+    "fraction_ownership_gt100": 0.9591449291870752,
+    "flagged_rate": 0.38406044727949273,
+    "flag_change_players_after_w1": 50,
+    "players": 778,
+    "raw_has_status": false,
+    "gw1_zero_prices": 573
+  },
+  {
+    "season": "2023-24",
+    "ownership_max": 9241818.0,
+    "ownership_median": 11354.0,
+    "fraction_ownership_gt100": 0.9529265087441453,
+    "flagged_rate": 0.3847423930990329,
+    "flag_change_players_after_w1": 38,
+    "players": 865,
+    "raw_has_status": false,
+    "gw1_zero_prices": 658
+  },
+  {
+    "season": "2024-25",
+    "ownership_max": 8268869.0,
+    "ownership_median": 20132.0,
+    "fraction_ownership_gt100": 0.9588753215696221,
+    "flagged_rate": 0.31917823109532956,
+    "flag_change_players_after_w1": 24,
+    "players": 804,
+    "raw_has_status": false,
+    "gw1_zero_prices": 616
+  },
+  {
+    "season": "2025-26",
+    "ownership_max": 9515178.0,
+    "ownership_median": 19545.0,
+    "fraction_ownership_gt100": 0.9637274346992974,
+    "flagged_rate": 0.3419504487847514,
+    "flag_change_players_after_w1": 18,
+    "players": 841,
+    "raw_has_status": false,
+    "gw1_zero_prices": 690
+  },
+  {
+    "season": "2026-27",
+    "ownership_max": 7935710.0,
+    "ownership_median": 11931.5,
+    "fraction_ownership_gt100": 0.7826492537313433,
+    "flagged_rate": 0.166044776119403,
+    "flag_change_players_after_w1": 160,
+    "players": 667,
+    "raw_has_status": true,
+    "gw1_zero_prices": 610
+  }
+]

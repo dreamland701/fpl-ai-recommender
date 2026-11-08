@@ -1,0 +1,329 @@
+{
+  "ledger": [
+    {
+      "week": 1,
+      "actual": 38,
+      "average": 50
+    },
+    {
+      "week": 2,
+      "actual": 85,
+      "average": 79
+    },
+    {
+      "week": 3,
+      "actual": 38,
+      "average": 51
+    },
+    {
+      "week": 4,
+      "actual": 61,
+      "average": 69
+    },
+    {
+      "week": 5,
+      "actual": 61,
+      "average": 48
+    }
+  ],
+  "total_actual": 283,
+  "sum_weekly_averages": 297,
+  "forecast_metrics": [
+    {
+      "week": 1,
+      "examples": "live_gw1_2627_examples_wed.jsonl",
+      "predictions": "live_gw1_2627_e10_predictions_wed.jsonl",
+      "example_rows": 595,
+      "prediction_rows": 595,
+      "id_mismatches": 0,
+      "parse_failures": 0,
+      "matched_actual_rows": 595,
+      "zero_probability_deltas": 11,
+      "evidence_fraction": 0.7109243697478992,
+      "mean_point_delta": -0.3221848739495799,
+      "subsets": {
+        "all_matched": {
+          "classic": {
+            "n": 595,
+            "mae": 1.625733781512605,
+            "rmse": 2.6489746856681973,
+            "mean_prediction": 1.4360635294117647,
+            "mean_actual": 1.5865546218487394,
+            "bias_pred_minus_actual": -0.1504910924369748
+          },
+          "sft": {
+            "n": 595,
+            "mae": 1.5226005042016808,
+            "rmse": 2.6721430440973117,
+            "mean_prediction": 1.1360882352941177,
+            "mean_actual": 1.5865546218487394,
+            "bias_pred_minus_actual": -0.4504663865546219
+          },
+          "classic_brier": 0.2404652308235294,
+          "sft_brier": 0.25053932722689076,
+          "baseline_unconstrained_top11_actual_sum": 48.0,
+          "adjusted_unconstrained_top11_actual_sum": 40.0
+        },
+        "baseline_probability_ge_05": {
+          "classic": {
+            "n": 202,
+            "mae": 2.61370198019802,
+            "rmse": 3.371833842317563,
+            "mean_prediction": 3.071029702970297,
+            "mean_actual": 2.618811881188119,
+            "bias_pred_minus_actual": 0.45221782178217823
+          },
+          "sft": {
+            "n": 202,
+            "mae": 2.4028198019801983,
+            "rmse": 3.356561446976166,
+            "mean_prediction": 2.5433069306930696,
+            "mean_actual": 2.618811881188119,
+            "bias_pred_minus_actual": -0.07550495049504949
+          },
+          "classic_brier": 0.17755523133663367,
+          "sft_brier": 0.18156441945544552,
+          "baseline_unconstrained_top11_actual_sum": 48.0,
+          "adjusted_unconstrained_top11_actual_sum": 40.0
+        }
+      }
+    },
+    {
+      "week": 2,
+      "examples": "live_gw2_2627_examples_v2.jsonl",
+      "predictions": "live_gw2_2627_e11full_predictions_v2.jsonl",
+      "example_rows": 616,
+      "prediction_rows": 616,
+      "id_mismatches": 0,
+      "parse_failures": 0,
+      "matched_actual_rows": 616,
+      "zero_probability_deltas": 43,
+      "evidence_fraction": 0.8766233766233766,
+      "mean_point_delta": -0.3224025974025974,
+      "subsets": {
+        "all_matched": {
+          "classic": {
+            "n": 616,
+            "mae": 1.2328665584415586,
+            "rmse": 2.136045135070521,
+            "mean_prediction": 1.5514584415584416,
+            "mean_actual": 1.4399350649350648,
+            "bias_pred_minus_actual": 0.11152337662337661
+          },
+          "sft": {
+            "n": 616,
+            "mae": 1.1455373376623377,
+            "rmse": 2.1604834792300482,
+            "mean_prediction": 1.2615646103896105,
+            "mean_actual": 1.4399350649350648,
+            "bias_pred_minus_actual": -0.17837045454545455
+          },
+          "classic_brier": 0.1503797536688312,
+          "sft_brier": 0.14138439946428571,
+          "baseline_unconstrained_top11_actual_sum": 39.0,
+          "adjusted_unconstrained_top11_actual_sum": 39.0
+        },
+        "baseline_probability_ge_05": {
+          "classic": {
+            "n": 224,
+            "mae": 2.355690178571429,
+            "rmse": 3.251329444283962,
+            "mean_prediction": 3.2769339285714283,
+            "mean_actual": 3.1651785714285716,
+            "bias_pred_minus_actual": 0.11175535714285709
+          },
+          "sft": {
+            "n": 224,
+            "mae": 2.2578526785714286,
+            "rmse": 3.299849000049093,
+            "mean_prediction": 2.725594642857143,
+            "mean_actual": 3.1651785714285716,
+            "bias_pred_minus_actual": -0.43958392857142853
+          },
+          "classic_brier": 0.08765538919642857,
+          "sft_brier": 0.08216906776785714,
+          "baseline_unconstrained_top11_actual_sum": 39.0,
+          "adjusted_unconstrained_top11_actual_sum": 39.0
+        }
+      }
+    },
+    {
+      "week": 3,
+      "examples": "live_gw3_2627_examples.jsonl",
+      "predictions": "live_gw3_2627_e11full_predictions.jsonl",
+      "example_rows": 652,
+      "prediction_rows": 652,
+      "id_mismatches": 0,
+      "parse_failures": 0,
+      "matched_actual_rows": 652,
+      "zero_probability_deltas": 48,
+      "evidence_fraction": 0.8803680981595092,
+      "mean_point_delta": -0.3342024539877301,
+      "subsets": {
+        "all_matched": {
+          "classic": {
+            "n": 652,
+            "mae": 1.0972317484662577,
+            "rmse": 1.950846085657019,
+            "mean_prediction": 1.3270633435582824,
+            "mean_actual": 1.3987730061349692,
+            "bias_pred_minus_actual": -0.0717096625766871
+          },
+          "sft": {
+            "n": 652,
+            "mae": 1.0521309815950919,
+            "rmse": 1.9931971550182903,
+            "mean_prediction": 1.097915337423313,
+            "mean_actual": 1.3987730061349692,
+            "bias_pred_minus_actual": -0.3008576687116564
+          },
+          "classic_brier": 0.12736719211656441,
+          "sft_brier": 0.12807611392638038,
+          "baseline_unconstrained_top11_actual_sum": 37.0,
+          "adjusted_unconstrained_top11_actual_sum": 35.0
+        },
+        "baseline_probability_ge_05": {
+          "classic": {
+            "n": 221,
+            "mae": 2.264395475113122,
+            "rmse": 3.0799624228036215,
+            "mean_prediction": 2.9823058823529407,
+            "mean_actual": 3.3484162895927603,
+            "bias_pred_minus_actual": -0.3661104072398189
+          },
+          "sft": {
+            "n": 221,
+            "mae": 2.191589140271493,
+            "rmse": 3.156745147869445,
+            "mean_prediction": 2.5126226244343894,
+            "mean_actual": 3.3484162895927603,
+            "bias_pred_minus_actual": -0.8357936651583711
+          },
+          "classic_brier": 0.08034687285067872,
+          "sft_brier": 0.062352990497737557,
+          "baseline_unconstrained_top11_actual_sum": 37.0,
+          "adjusted_unconstrained_top11_actual_sum": 35.0
+        }
+      }
+    },
+    {
+      "week": 4,
+      "examples": "live_gw4_2627_examples_v2.jsonl",
+      "predictions": "live_gw4_2627_e11full_predictions.jsonl",
+      "example_rows": 654,
+      "prediction_rows": 654,
+      "id_mismatches": 0,
+      "parse_failures": 0,
+      "matched_actual_rows": 654,
+      "zero_probability_deltas": 38,
+      "evidence_fraction": 0.8730886850152905,
+      "mean_point_delta": -0.3211009174311927,
+      "subsets": {
+        "all_matched": {
+          "classic": {
+            "n": 654,
+            "mae": 1.2147282874617735,
+            "rmse": 2.183845652006797,
+            "mean_prediction": 1.3421160550458715,
+            "mean_actual": 1.408256880733945,
+            "bias_pred_minus_actual": -0.0661408256880734
+          },
+          "sft": {
+            "n": 654,
+            "mae": 1.1615525993883793,
+            "rmse": 2.2326915820006112,
+            "mean_prediction": 1.1163382262996941,
+            "mean_actual": 1.408256880733945,
+            "bias_pred_minus_actual": -0.2919186544342508
+          },
+          "classic_brier": 0.13830368107033642,
+          "sft_brier": 0.13129057885321102,
+          "baseline_unconstrained_top11_actual_sum": 54.0,
+          "adjusted_unconstrained_top11_actual_sum": 50.0
+        },
+        "baseline_probability_ge_05": {
+          "classic": {
+            "n": 223,
+            "mae": 2.5902982062780273,
+            "rmse": 3.434883074445491,
+            "mean_prediction": 3.0336443946188347,
+            "mean_actual": 3.304932735426009,
+            "bias_pred_minus_actual": -0.27128834080717484
+          },
+          "sft": {
+            "n": 223,
+            "mae": 2.491462331838566,
+            "rmse": 3.521843691976901,
+            "mean_prediction": 2.558756502242153,
+            "mean_actual": 3.304932735426009,
+            "bias_pred_minus_actual": -0.7461762331838566
+          },
+          "classic_brier": 0.10163503865470852,
+          "sft_brier": 0.08429261713004484,
+          "baseline_unconstrained_top11_actual_sum": 54.0,
+          "adjusted_unconstrained_top11_actual_sum": 50.0
+        }
+      }
+    },
+    {
+      "week": 5,
+      "examples": "live_gw5_2627_examples.jsonl",
+      "predictions": "live_gw5_2627_e11full_predictions.jsonl",
+      "example_rows": 659,
+      "prediction_rows": 659,
+      "id_mismatches": 0,
+      "parse_failures": 0,
+      "matched_actual_rows": 659,
+      "zero_probability_deltas": 42,
+      "evidence_fraction": 0.8543247344461306,
+      "mean_point_delta": -0.31441578148710164,
+      "subsets": {
+        "all_matched": {
+          "classic": {
+            "n": 659,
+            "mae": 1.1251113808801216,
+            "rmse": 2.1452043747410627,
+            "mean_prediction": 1.3164576631259484,
+            "mean_actual": 1.464339908952959,
+            "bias_pred_minus_actual": -0.14788224582701062
+          },
+          "sft": {
+            "n": 659,
+            "mae": 1.109370713201821,
+            "rmse": 2.201112303918477,
+            "mean_prediction": 1.113662670713202,
+            "mean_actual": 1.464339908952959,
+            "bias_pred_minus_actual": -0.35067723823975727
+          },
+          "classic_brier": 0.1357120339605463,
+          "sft_brier": 0.13006268491654022,
+          "baseline_unconstrained_top11_actual_sum": 39.0,
+          "adjusted_unconstrained_top11_actual_sum": 39.0
+        },
+        "baseline_probability_ge_05": {
+          "classic": {
+            "n": 219,
+            "mae": 2.3762611872146118,
+            "rmse": 3.3226535019015495,
+            "mean_prediction": 3.031196347031964,
+            "mean_actual": 3.5662100456621006,
+            "bias_pred_minus_actual": -0.535013698630137
+          },
+          "sft": {
+            "n": 219,
+            "mae": 2.359663926940639,
+            "rmse": 3.4277552183721673,
+            "mean_prediction": 2.564986301369863,
+            "mean_actual": 3.5662100456621006,
+            "bias_pred_minus_actual": -1.0012237442922374
+          },
+          "classic_brier": 0.10771782237442923,
+          "sft_brier": 0.08735040684931505,
+          "baseline_unconstrained_top11_actual_sum": 39.0,
+          "adjusted_unconstrained_top11_actual_sum": 39.0
+        }
+      }
+    }
+  ],
+  "warning": "These are saved player forecasts, not a replay of final entered squads. Top11 is unconstrained and is not legal squad performance. Current settled historical labels used for scoring."
+}

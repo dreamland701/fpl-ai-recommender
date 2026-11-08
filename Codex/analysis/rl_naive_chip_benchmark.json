@@ -1,0 +1,94 @@
+{
+  "policy": "Play BB at first opportunity and TC at next opportunity each half; otherwise defaults. No model, no outcome selection.",
+  "limitations": "Uses the existing scorer and reset-window squads; not a clean season backtest or ship candidate.",
+  "results": [
+    {
+      "states": "grpo_states",
+      "baseline": 968.0,
+      "naive_policy": 981.0,
+      "delta": 13.0,
+      "windows": [
+        {
+          "start": 12,
+          "delta": 6.0,
+          "chips": [
+            "bench_boost",
+            "triple_captain",
+            "none",
+            "none",
+            "none",
+            "none"
+          ]
+        },
+        {
+          "start": 18,
+          "delta": 7.0,
+          "chips": [
+            "none",
+            "none",
+            "bench_boost",
+            "triple_captain",
+            "none",
+            "none"
+          ]
+        },
+        {
+          "start": 24,
+          "delta": 0.0,
+          "chips": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "none",
+            "none"
+          ]
+        }
+      ]
+    },
+    {
+      "states": "grpo_states_adjusted",
+      "baseline": 940.0,
+      "naive_policy": 955.0,
+      "delta": 15.0,
+      "windows": [
+        {
+          "start": 12,
+          "delta": 8.0,
+          "chips": [
+            "bench_boost",
+            "triple_captain",
+            "none",
+            "none",
+            "none",
+            "none"
+          ]
+        },
+        {
+          "start": 18,
+          "delta": 7.0,
+          "chips": [
+            "none",
+            "none",
+            "bench_boost",
+            "triple_captain",
+            "none",
+            "none"
+          ]
+        },
+        {
+          "start": 24,
+          "delta": 0.0,
+          "chips": [
+            "none",
+            "none",
+            "none",
+            "none",
+            "none",
+            "none"
+          ]
+        }
+      ]
+    }
+  ]
+}

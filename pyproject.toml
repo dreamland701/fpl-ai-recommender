@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fpl-ai-recommender"
+version = "0.1.0"
+description = "Personal FPL assistant with structured forecasting, decision search, and grounded research outputs."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.2",
+  "requests>=2.31",
+  "googlenewsdecoder>=0.1.7",
+]
+
+[project.optional-dependencies]
+storage = [
+  "duckdb>=1.0",
+  "pyarrow>=15.0",
+]
+
+[project.scripts]
+fpl-ai = "fpl_ai.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,148 @@
+# Rolling Squad Backtest Report
+
+- Train seasons in scope: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26, 2026-27
+- In-season warm start: 2024-25 GW1-GW27
+- Simulated weeks: GW28-GW31
+- Total predicted points: 241.28
+- Total actual points: 177.00
+- Average predicted points: 60.32
+- Average actual points: 44.25
+- Total transfer hits: 0
+
+## Notes
+
+- The feature set includes lagged bonus/BPS/ICT features plus newer xG/xA/xGI/xGC/starts/defensive-contribution features when available.
+- Later-era-only features are zero-filled outside their source era and paired with expected_data_source_available / defensive_data_source_available flags so the model can distinguish missing-era zeros from real observations.
+- This squad backtest uses a synthetic starting squad at the beginning of the simulated window, approximate price carry-forward, and simple auto-sub handling.
+- Bench Boost and Triple Captain are scheduled by an explicit remaining-season optimizer that uses current squad strength plus future schedule opportunity estimates.
+- Weekly training expands through the prior deadline, so GW1-GW27 are included before the first simulated week.
+- League-average scores were not available for this run.
+
+## GW28
+
+- Train rows: 152512
+- Bank: 100.00 -> 0.10
+- Free transfers: 1 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Cole Palmer
+- Effective captain: Mohamed Salah
+- Chip used: none
+- Predicted score: 67.47
+- Actual score: 62.00
+- Transfer: none
+- Initial squad was constructed synthetically at the start of the backtest from week-level forecasts under a 100.0 budget.
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bench 1 | Bench | David Raya Martin | GK | 1 | 5.5 | 3.24 | 10.89 | 17.64 | 3.00 | 87.5 | 90.0 |
+| XI | XI | Jordan Pickford | GK | 8 | 5.1 | 3.44 | 9.64 | 15.76 | 2.00 | 89.4 | 90.0 |
+| XI | XI | Trent Alexander-Arnold | DEF | 12 | 7.5 | 5.48 | 16.56 | 26.74 | 2.00 | 78.9 | 88.0 |
+| XI | XI | Virgil van Dijk | DEF | 12 | 6.4 | 4.47 | 13.02 | 21.08 | 2.00 | 82.5 | 90.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.3 | 4.22 | 12.11 | 19.51 | 2.00 | 85.9 | 90.0 |
+| Bench 2 | Bench | Daniel Muñoz | DEF | 7 | 5.0 | 3.59 | 11.65 | 18.34 | 6.00 | 86.5 | 90.0 |
+| XI | XI | Pedro Porro | DEF | 18 | 5.3 | 4.06 | 10.67 | 17.59 | 1.00 | 87.5 | 86.0 |
+| Bench 3 | Bench | Norberto Bercique Gomes Betuncal | FWD | 8 | 5.1 | 3.57 | 10.74 | 16.84 | 2.00 | 80.1 | 90.0 |
+| XI | XI | João Pedro Junqueira de Jesus | FWD | 5 | 5.5 | 4.11 | 10.14 | 16.79 | 9.00 | 71.5 | 90.0 |
+| Bench 4 | Bench | Shumaira Mheuka | FWD | 6 | 4.5 | 0.81 | 2.31 | 3.76 | 0.00 | 11.6 | 0.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 13.8 | 8.96 | 29.04 | 47.45 | 15.00 | 85.6 | 90.0 |
+| Vice Captain | XI | Cole Palmer | MID | 6 | 11.0 | 8.82 | 18.69 | 30.32 | 1.00 | 81.6 | 72.0 |
+| XI | XI | Bryan Mbeumo | MID | 4 | 8.1 | 5.78 | 17.53 | 28.20 | 2.00 | 87.1 | 90.0 |
+| XI | XI | Justin Kluivert | MID | 3 | 6.1 | 4.38 | 13.93 | 22.67 | 5.00 | 85.2 | 90.0 |
+| XI | XI | Enzo Fernández | MID | 6 | 4.7 | 4.77 | 9.84 | 15.66 | 6.00 | 82.0 | 90.0 |
+
+## GW29
+
+- Train rows: 153301
+- Bank: 0.10 -> 0.50
+- Free transfers: 2 -> 2
+- Captain: Justin Kluivert
+- Vice captain: Bryan Mbeumo
+- Effective captain: Justin Kluivert
+- Chip used: none
+- Predicted score: 44.22
+- Actual score: 24.00
+- Transfer: Virgil van Dijk -> Joško Gvardiol (projected gain 1.36, hit 0)
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bench 1 | Bench | David Raya Martin | GK | 1 | 5.5 | 3.49 | 10.54 | 17.22 | 6.00 | 87.4 | 90.0 |
+| XI | XI | Jordan Pickford | GK | 8 | 5.1 | 4.02 | 10.30 | 16.54 | 3.00 | 88.2 | 90.0 |
+| XI | XI | Joško Gvardiol | DEF | 13 | 6.0 | 4.04 | 13.73 | 21.36 | 1.00 | 87.7 | 90.0 |
+| Bench 3 | Bench | Trent Alexander-Arnold | DEF | 12 | 7.5 | 0.12 | 13.55 | 23.12 | 0.00 | 1.1 | 0.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.3 | 4.40 | 12.36 | 19.91 | 5.00 | 85.9 | 90.0 |
+| XI | Bench | Pedro Porro | DEF | 18 | 5.3 | 3.24 | 10.56 | 17.24 | 0.00 | 83.8 | 0.0 |
+| Bench 4 | Bench | Daniel Muñoz | DEF | 7 | 5.0 | 0.00 | 8.56 | 14.38 | 0.00 | 1.4 | 0.0 |
+| XI | XI | João Pedro Junqueira de Jesus | FWD | 5 | 5.5 | 2.71 | 10.87 | 17.86 | 1.00 | 79.7 | 90.0 |
+| XI | XI | Norberto Bercique Gomes Betuncal | FWD | 8 | 5.1 | 3.83 | 10.57 | 16.67 | 2.00 | 80.1 | 79.0 |
+| Bench 2 | Bench | Shumaira Mheuka | FWD | 6 | 4.5 | 0.34 | 0.97 | 1.89 | 0.00 | 6.7 | 0.0 |
+| XI | Bench | Mohamed Salah | MID | 12 | 13.8 | 1.21 | 26.62 | 45.14 | 0.00 | 1.1 | 0.0 |
+| Vice Captain | XI | Bryan Mbeumo | MID | 4 | 8.1 | 4.51 | 17.03 | 27.47 | 6.00 | 88.2 | 90.0 |
+| Captain | Captain | Justin Kluivert | MID | 3 | 6.1 | 4.71 | 16.73 | 26.20 | 2.00 | 85.5 | 78.0 |
+| XI | Bench | Cole Palmer | MID | 6 | 10.9 | 4.26 | 14.67 | 25.34 | 0.00 | 62.3 | 0.0 |
+| XI | XI | Enzo Fernández | MID | 6 | 4.7 | 2.58 | 9.77 | 16.08 | 2.00 | 84.3 | 90.0 |
+
+## GW30
+
+- Train rows: 154090
+- Bank: 0.50 -> 1.60
+- Free transfers: 2 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Justin Kluivert
+- Effective captain: Mohamed Salah
+- Chip used: bench_boost
+- Predicted score: 64.47
+- Actual score: 50.00
+- Chip rationale: Optimizer chose Bench Boost here because the current estimated bench gain (6.91) beats the best remaining Bench Boost opportunity (8.05).
+- Transfer: Trent Alexander-Arnold -> William Saliba (projected gain 5.60, hit 0)
+- Chip used: Bench Boost. Optimizer chose Bench Boost here because the current estimated bench gain (6.91) beats the best remaining Bench Boost opportunity (8.05).
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | David Raya Martin | GK | 1 | 5.5 | 3.81 | 12.73 | 20.11 | 2.00 | 89.6 | 90.0 |
+| Bench 1 | Bench Boost | Jordan Pickford | GK | 8 | 5.1 | 2.14 | 7.88 | 13.66 | 3.00 | 74.8 | 90.0 |
+| XI | XI | Gabriel dos Santos Magalhães | DEF | 1 | 6.3 | 4.41 | 12.51 | 20.20 | 1.00 | 86.8 | 15.0 |
+| XI | XI | Joško Gvardiol | DEF | 13 | 6.0 | 3.76 | 11.20 | 17.85 | 6.00 | 78.6 | 90.0 |
+| XI | XI | William Saliba | DEF | 1 | 6.2 | 3.96 | 11.13 | 18.12 | 2.00 | 87.0 | 90.0 |
+| XI | XI | Daniel Muñoz | DEF | 7 | 5.0 | 4.21 | 9.82 | 15.60 | 2.00 | 78.5 | 75.0 |
+| Bench 3 | Bench Boost | Pedro Porro | DEF | 18 | 5.3 | 2.18 | 7.01 | 12.10 | 0.00 | 62.9 | 2.0 |
+| XI | XI | João Pedro Junqueira de Jesus | FWD | 5 | 5.5 | 3.36 | 10.65 | 17.26 | 2.00 | 77.1 | 71.0 |
+| Bench 2 | Bench Boost | Norberto Bercique Gomes Betuncal | FWD | 8 | 5.1 | 2.24 | 7.76 | 13.19 | 1.00 | 48.6 | 78.0 |
+| Bench 4 | Bench Boost | Shumaira Mheuka | FWD | 6 | 4.5 | 0.34 | 1.36 | 2.26 | 0.00 | 4.5 | 0.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 13.7 | 8.38 | 23.09 | 39.29 | 3.00 | 88.7 | 90.0 |
+| Vice Captain | XI | Justin Kluivert | MID | 3 | 6.2 | 5.23 | 13.48 | 22.12 | 0.00 | 68.2 | 0.0 |
+| XI | XI | Bryan Mbeumo | MID | 4 | 8.1 | 4.19 | 13.35 | 22.55 | 8.00 | 77.6 | 90.0 |
+| XI | XI | Cole Palmer | MID | 6 | 10.8 | 4.02 | 11.13 | 19.94 | 6.00 | 41.9 | 90.0 |
+| XI | XI | Enzo Fernández | MID | 6 | 4.7 | 3.86 | 10.02 | 16.28 | 11.00 | 82.9 | 90.0 |
+
+## GW31
+
+- Train rows: 154881
+- Bank: 1.60 -> 0.20
+- Free transfers: 2 -> 2
+- Captain: Mohamed Salah
+- Vice captain: Cole Palmer
+- Effective captain: Mohamed Salah
+- Chip used: triple_captain
+- Predicted score: 65.13
+- Actual score: 41.00
+- Chip rationale: Optimizer chose Triple Captain here because the current estimated captain upside (8.00) beats the best remaining Triple Captain opportunity (0.00).
+- Transfer: Justin Kluivert -> Luis Díaz (projected gain 8.76, hit 0)
+- Chip used: Triple Captain on Mohamed Salah. Optimizer chose Triple Captain here because the current estimated captain upside (8.00) beats the best remaining Triple Captain opportunity (0.00).
+
+| Selected Role | Realized Role | Player | Pos | Team | Price | Pred 1GW | Pred 3GW | Pred 5GW | Actual 1GW | Pred Min | Actual Min |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| XI | XI | David Raya Martin | GK | 1 | 5.5 | 3.23 | 11.60 | 18.36 | 2.00 | 90.3 | 90.0 |
+| Bench 1 | Bench | Jordan Pickford | GK | 8 | 5.1 | 2.48 | 8.90 | 14.92 | 3.00 | 89.6 | 90.0 |
+| XI | XI | William Saliba | DEF | 1 | 6.3 | 4.17 | 13.42 | 21.26 | 2.00 | 85.2 | 90.0 |
+| XI | XI | Joško Gvardiol | DEF | 13 | 6.0 | 4.08 | 12.15 | 19.05 | 9.00 | 88.0 | 90.0 |
+| XI | XI | Daniel Muñoz | DEF | 7 | 5.1 | 3.94 | 9.83 | 15.16 | 8.00 | 76.2 | 90.0 |
+| XI | XI | Pedro Porro | DEF | 18 | 5.3 | 3.47 | 7.44 | 12.54 | 1.00 | 65.6 | 90.0 |
+| Bench 3 | Bench | Gabriel dos Santos Magalhães | DEF | 1 | 6.3 | 1.79 | 5.16 | 10.13 | 0.00 | 26.6 | 0.0 |
+| XI | XI | João Pedro Junqueira de Jesus | FWD | 5 | 5.5 | 3.57 | 9.60 | 15.99 | 1.00 | 65.9 | 27.0 |
+| Bench 2 | Bench | Norberto Bercique Gomes Betuncal | FWD | 8 | 5.0 | 2.46 | 8.67 | 14.50 | 2.00 | 48.7 | 64.0 |
+| Bench 4 | Bench | Shumaira Mheuka | FWD | 6 | 4.5 | 0.15 | 0.95 | 1.63 | 0.00 | 3.8 | 0.0 |
+| Captain | Captain | Mohamed Salah | MID | 12 | 13.8 | 8.00 | 24.68 | 40.64 | 2.00 | 85.3 | 90.0 |
+| XI | XI | Bryan Mbeumo | MID | 4 | 8.1 | 4.36 | 14.80 | 24.56 | 3.00 | 85.1 | 90.0 |
+| Vice Captain | XI | Cole Palmer | MID | 6 | 10.7 | 6.02 | 14.70 | 25.48 | 1.00 | 81.7 | 31.0 |
+| XI | XI | Luis Díaz | MID | 12 | 7.5 | 5.14 | 13.31 | 22.24 | 6.00 | 79.8 | 35.0 |
+| XI | XI | Enzo Fernández | MID | 6 | 4.7 | 3.14 | 10.40 | 17.32 | 2.00 | 84.7 | 90.0 |
