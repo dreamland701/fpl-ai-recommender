@@ -84,3 +84,9 @@ drivers) expect Gemma-4 weights on disk and a 100 GB-class GPU; they were run on
 
 Built by Wes Cheng with Claude (Anthropic) as pair programmer and the independent review in `Codex/`.
 Start with `docs/fpl_project_deep_dive_2026_10_03.md`, Part 0, for the thirty-minute version.
+
+## License
+
+Code and write-ups are released under the MIT License (see `LICENSE`). The short quotations from Guardian and
+Premier League articles inside the gameweek write-ups are attributed excerpts used for commentary on the model's
+reads; the article stores themselves are not distributed.

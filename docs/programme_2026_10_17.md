@@ -1142,3 +1142,8 @@ docs, markdown write-ups, the Codex review and the ridge coefficients. Excluded 
 (4.8 GB), evidence stores (Guardian/Scout article text), logs, forecast/snapshot payloads. Scans before the push: Guardian key
 value, email address and raw article dumps all absent from the staged tree. Root README rewritten for an outside reader; the
 July CLI quickstart moved to docs/cli_quickstart_2026_07.md. Commits are identified by the GitHub noreply address.
+
+Later the same day Wes asked for the repository to be made public. Re-ran the scans on the tracked tree (no secret patterns,
+no credential-looking paths, email and Guardian key value absent); the only third-party text in the tree is 164 short
+attributed excerpt lines (122 Guardian, 42 Premier League) inside the side-by-side write-ups, no article bodies. Added an MIT
+LICENSE (copyright Wes Cheng) and a license note to the README, pushed, then flipped the visibility to public and set topics.
